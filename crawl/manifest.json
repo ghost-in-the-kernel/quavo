@@ -1,0 +1,40 @@
+{
+  "tool": "suite-builder",
+  "version": "1.39.0",
+  "build": {
+    "commit": "d6504ccf733fc98c30107248fe81f33c7d0d10ef",
+    "branch": "main"
+  },
+  "framework": "playwright",
+  "generatedAt": "2026-11-06T00:30:48.781Z",
+  "command": "suite-builder build https://www.quavo.com/",
+  "templates": "crawl/www.quavo.com.templates.json",
+  "crawl": "crawl/www.quavo.com.crawl.json",
+  "crawlFileSaved": "2026-11-06T00:30:45.473Z",
+  "pages": {
+    "ship": "all",
+    "crawl": "77a3a1237f92a7b2",
+    "signedIn": false,
+    "roles": []
+  },
+  "accounts": [
+    {
+      "role": "user",
+      "file": "secrets/user.login",
+      "environment": [
+        "SUITE_USER_USERNAME",
+        "SUITE_USER_PASSWORD"
+      ],
+      "docked": "<Suite Builder's secrets folder, DOCK.md's last line>/<site>/user.login"
+    },
+    {
+      "role": "admin",
+      "file": "secrets/admin.login",
+      "environment": [
+        "SUITE_ADMIN_USERNAME",
+        "SUITE_ADMIN_PASSWORD"
+      ],
+      "docked": "<Suite Builder's secrets folder, DOCK.md's last line>/<site>/admin.login"
+    }
+  ]
+}

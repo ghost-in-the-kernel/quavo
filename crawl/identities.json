@@ -1,0 +1,436 @@
+{
+  "tool": "suite-builder",
+  "ledgerVersion": 1,
+  "entities": [
+    {
+      "id": "type:/",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "HomePage",
+      "patterns": [
+        "/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/terms-and-conditions/",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "TermsAndConditionsPage",
+      "patterns": [
+        "/terms-and-conditions/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/resources/",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "ResourcesPage",
+      "patterns": [
+        "/resources/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/*",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "TrustedByPage",
+      "patterns": [
+        "/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/insight/*",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "InsightPage",
+      "patterns": [
+        "/insight/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/download/*",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "DownloadPage",
+      "patterns": [
+        "/download/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/case-study/*",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "CaseStudyPage",
+      "patterns": [
+        "/case-study/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/webinar/*",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "WebinarPage",
+      "patterns": [
+        "/webinar/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/*/*",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "RelatedResourcesPage",
+      "patterns": [
+        "/*/*",
+        "/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/press-release-use-cases/*",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "PressReleaseUseCasePage",
+      "patterns": [
+        "/press-release-use-cases/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/quavo-labs/*",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "QuavoLabPage",
+      "patterns": [
+        "/quavo-labs/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/*#2",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "IssuePage",
+      "patterns": [
+        "/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/qfd/",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "QfdPage",
+      "patterns": [
+        "/qfd/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/dre/",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "DrePage",
+      "patterns": [
+        "/dre/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/*#3",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "ArticlePage",
+      "patterns": [
+        "/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/qfd-ai/",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "QfdAiPage",
+      "patterns": [
+        "/qfd-ai/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/case-studies/",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "CaseStudiesPage",
+      "patterns": [
+        "/case-studies/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/quarterly-newsletter/q2-2025/",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "QuarterlyNewsletterQ2Page",
+      "patterns": [
+        "/quarterly-newsletter/q2-2025/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/blog/",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "BlogPage",
+      "patterns": [
+        "/blog/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/videos/",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "VideosPage",
+      "patterns": [
+        "/videos/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/insights/",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "InsightsPage",
+      "patterns": [
+        "/insights/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/events-product/qfd/",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "EventsProductQfdPage",
+      "patterns": [
+        "/events-product/qfd/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/event/auriemma-fraud-summit/",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "EventAuriemmaFraudSummitPage",
+      "patterns": [
+        "/event/auriemma-fraud-summit/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/whitepaper-use-cases/fintech/",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "WhitepaperUseCasesFintechPage",
+      "patterns": [
+        "/whitepaper-use-cases/fintech/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/downloads/",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "DownloadsPage",
+      "patterns": [
+        "/downloads/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/webinars/",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "WebinarsPage",
+      "patterns": [
+        "/webinars/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/quavo-labs/",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "QuavoLabsPage",
+      "patterns": [
+        "/quavo-labs/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/about/",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "AboutPage",
+      "patterns": [
+        "/about/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/newsroom/",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "NewsroomPage",
+      "patterns": [
+        "/newsroom/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/careers/",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "CareersPage",
+      "patterns": [
+        "/careers/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/partners/",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "PartnersPage",
+      "patterns": [
+        "/partners/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/contact-us/",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "ContactUsPage",
+      "patterns": [
+        "/contact-us/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    },
+    {
+      "id": "type:/privacy-policy/",
+      "kind": "page-type",
+      "introducedAt": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21",
+      "cls": "PrivacyPolicyPage",
+      "patterns": [
+        "/privacy-policy/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "77a3a1237f92a7b280a36b6e6bbd29764d82ddf67e4663c31a5e1796bcc39b21"
+      }
+    }
+  ]
+}

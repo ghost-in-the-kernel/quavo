@@ -1,0 +1,4691 @@
+{
+  "tool": "suite-builder",
+  "kind": "templates",
+  "version": 2,
+  "startUrl": "https://www.quavo.com/",
+  "origin": "https://www.quavo.com",
+  "pagesRead": 105,
+  "menu": [
+    {
+      "to": "https://www.quavo.com/issuing-banks/",
+      "href": "https://www.quavo.com/issuing-banks/",
+      "text": "Banks",
+      "region": "footer",
+      "seenOn": "https://www.quavo.com/",
+      "template": "trusted-by"
+    },
+    {
+      "to": "https://www.quavo.com/credit-unions/",
+      "href": "https://www.quavo.com/credit-unions/",
+      "text": "Credit Unions",
+      "region": "footer",
+      "seenOn": "https://www.quavo.com/",
+      "template": "trusted-by"
+    },
+    {
+      "to": "https://www.quavo.com/fintech/",
+      "href": "https://www.quavo.com/fintech/",
+      "text": "Fintechs",
+      "region": "footer",
+      "seenOn": "https://www.quavo.com/",
+      "template": "trusted-by"
+    },
+    {
+      "to": "https://www.quavo.com/processors/",
+      "href": "https://www.quavo.com/processors/",
+      "text": "Processors",
+      "region": "footer",
+      "seenOn": "https://www.quavo.com/",
+      "template": "trusted-by"
+    },
+    {
+      "to": "https://www.quavo.com/sponsor-bank/",
+      "href": "https://www.quavo.com/sponsor-bank/",
+      "text": "Sponsor Banks",
+      "region": "footer",
+      "seenOn": "https://www.quavo.com/",
+      "template": null
+    },
+    {
+      "to": "https://www.quavo.com/customer-experience/",
+      "href": "https://www.quavo.com/customer-experience/",
+      "text": "Customer Experience",
+      "hidden": true,
+      "region": "header",
+      "trigger": {
+        "href": "#",
+        "text": "Solutions"
+      },
+      "seenOn": "https://www.quavo.com/",
+      "template": null
+    },
+    {
+      "to": "https://www.quavo.com/losses/",
+      "href": "https://www.quavo.com/losses/",
+      "text": "Losses",
+      "hidden": true,
+      "region": "header",
+      "trigger": {
+        "href": "#",
+        "text": "Solutions"
+      },
+      "seenOn": "https://www.quavo.com/",
+      "template": "issue"
+    },
+    {
+      "to": "https://www.quavo.com/operational-efficiency/",
+      "href": "https://www.quavo.com/operational-efficiency/",
+      "text": "Operational Efficiency",
+      "hidden": true,
+      "region": "header",
+      "trigger": {
+        "href": "#",
+        "text": "Solutions"
+      },
+      "seenOn": "https://www.quavo.com/",
+      "template": "issue"
+    },
+    {
+      "to": "https://www.quavo.com/compliance/",
+      "href": "https://www.quavo.com/compliance/",
+      "text": "Reg E and Z Compliance",
+      "hidden": true,
+      "region": "header",
+      "trigger": {
+        "href": "#",
+        "text": "Solutions"
+      },
+      "seenOn": "https://www.quavo.com/",
+      "template": "issue"
+    },
+    {
+      "to": "https://www.quavo.com/qfd/",
+      "href": "https://www.quavo.com/qfd/",
+      "text": "QFD®",
+      "region": "footer",
+      "seenOn": "https://www.quavo.com/",
+      "template": "qfd"
+    },
+    {
+      "to": "https://www.quavo.com/dre/",
+      "href": "https://www.quavo.com/dre/",
+      "text": "DRE™",
+      "region": "footer",
+      "seenOn": "https://www.quavo.com/",
+      "template": "dre"
+    },
+    {
+      "to": "https://www.quavo.com/offering/",
+      "href": "https://www.quavo.com/offering/",
+      "text": "Offerings",
+      "region": "footer",
+      "seenOn": "https://www.quavo.com/",
+      "template": "article"
+    },
+    {
+      "to": "https://www.quavo.com/qfd-ai/",
+      "href": "https://www.quavo.com/qfd-ai/",
+      "text": "AI Powered by Aria™",
+      "region": "footer",
+      "seenOn": "https://www.quavo.com/",
+      "template": "qfd-ai"
+    },
+    {
+      "to": "https://www.quavo.com/integrations/",
+      "href": "https://www.quavo.com/integrations/",
+      "text": "Integrations",
+      "region": "footer",
+      "seenOn": "https://www.quavo.com/",
+      "template": "article"
+    },
+    {
+      "to": "https://www.quavo.com/resources/",
+      "href": "https://www.quavo.com/resources/",
+      "text": "Resources",
+      "hidden": true,
+      "region": "header",
+      "seenOn": "https://www.quavo.com/",
+      "template": "resources"
+    },
+    {
+      "to": "https://www.quavo.com/case-studies/",
+      "href": "/case-studies/",
+      "spellings": [
+        "https://www.quavo.com/case-studies/"
+      ],
+      "text": "Case Studies",
+      "region": "footer",
+      "seenOn": "https://www.quavo.com/",
+      "template": "case-studies"
+    },
+    {
+      "to": "https://www.quavo.com/download/case-study-sofi-tech-simplifies-dispute-management-at-scale/",
+      "href": "https://www.quavo.com/download/case-study-sofi-tech-simplifies-dispute-management-at-scale/",
+      "text": "Sofi Tech",
+      "hidden": true,
+      "region": "header",
+      "trigger": {
+        "href": "https://www.quavo.com/resources/",
+        "text": "Resources"
+      },
+      "innerTriggers": [
+        {
+          "href": "/case-studies/",
+          "text": "Case Studies"
+        }
+      ],
+      "seenOn": "https://www.quavo.com/",
+      "template": "download"
+    },
+    {
+      "to": "https://www.quavo.com/case-study/altura-modernizes-dispute-operations-empowering-member-satisfaction/",
+      "href": "https://www.quavo.com/case-study/altura-modernizes-dispute-operations-empowering-member-satisfaction/",
+      "text": "Altura",
+      "hidden": true,
+      "region": "header",
+      "trigger": {
+        "href": "https://www.quavo.com/resources/",
+        "text": "Resources"
+      },
+      "innerTriggers": [
+        {
+          "href": "/case-studies/",
+          "text": "Case Studies"
+        }
+      ],
+      "seenOn": "https://www.quavo.com/",
+      "template": "case-study"
+    },
+    {
+      "to": "https://www.quavo.com/case-study/rogue-credit-union-partners-with-quavo-to-improve-member-satisfaction-with-best-in-class-technology/",
+      "href": "https://www.quavo.com/case-study/rogue-credit-union-partners-with-quavo-to-improve-member-satisfaction-with-best-in-class-technology/",
+      "text": "Rogue",
+      "hidden": true,
+      "region": "header",
+      "trigger": {
+        "href": "https://www.quavo.com/resources/",
+        "text": "Resources"
+      },
+      "innerTriggers": [
+        {
+          "href": "/case-studies/",
+          "text": "Case Studies"
+        }
+      ],
+      "seenOn": "https://www.quavo.com/",
+      "template": "case-study"
+    },
+    {
+      "to": "https://www.quavo.com/case-study/first-hawaiian-bank-boosts-customer-satisfaction-and-elevates-technology-with-qfd/",
+      "href": "https://www.quavo.com/case-study/first-hawaiian-bank-boosts-customer-satisfaction-and-elevates-technology-with-qfd/",
+      "text": "FHB",
+      "hidden": true,
+      "region": "header",
+      "trigger": {
+        "href": "https://www.quavo.com/resources/",
+        "text": "Resources"
+      },
+      "innerTriggers": [
+        {
+          "href": "/case-studies/",
+          "text": "Case Studies"
+        }
+      ],
+      "seenOn": "https://www.quavo.com/",
+      "template": "case-study"
+    },
+    {
+      "to": "https://www.quavo.com/case-study/veridian-credit-union/",
+      "href": "https://www.quavo.com/case-study/veridian-credit-union/",
+      "text": "Veridian",
+      "hidden": true,
+      "region": "header",
+      "trigger": {
+        "href": "https://www.quavo.com/resources/",
+        "text": "Resources"
+      },
+      "innerTriggers": [
+        {
+          "href": "/case-studies/",
+          "text": "Case Studies"
+        }
+      ],
+      "seenOn": "https://www.quavo.com/",
+      "template": null
+    },
+    {
+      "to": "https://www.quavo.com/blog/",
+      "href": "https://www.quavo.com/blog/",
+      "text": "Blog",
+      "region": "footer",
+      "seenOn": "https://www.quavo.com/",
+      "template": "blog"
+    },
+    {
+      "to": "https://www.quavo.com/videos/",
+      "href": "https://www.quavo.com/videos/",
+      "text": "Videos",
+      "hidden": true,
+      "region": "header",
+      "trigger": {
+        "href": "https://www.quavo.com/resources/",
+        "text": "Resources"
+      },
+      "seenOn": "https://www.quavo.com/",
+      "template": "videos"
+    },
+    {
+      "to": "https://www.quavo.com/insights/",
+      "href": "/insights/",
+      "text": "Insights",
+      "region": "footer",
+      "seenOn": "https://www.quavo.com/",
+      "template": "insights"
+    },
+    {
+      "to": "https://www.quavo.com/downloads/",
+      "href": "/downloads/",
+      "spellings": [
+        "https://www.quavo.com/downloads/"
+      ],
+      "text": "Downloads",
+      "region": "footer",
+      "seenOn": "https://www.quavo.com/",
+      "template": "downloads"
+    },
+    {
+      "to": "https://www.quavo.com/webinars",
+      "href": "https://www.quavo.com/webinars",
+      "text": "Webinars",
+      "hidden": true,
+      "region": "header",
+      "trigger": {
+        "href": "https://www.quavo.com/resources/",
+        "text": "Resources"
+      },
+      "seenOn": "https://www.quavo.com/",
+      "template": "webinars"
+    },
+    {
+      "to": "https://www.quavo.com/quavo-labs/",
+      "href": "https://www.quavo.com/quavo-labs/",
+      "text": "Quavo Labs",
+      "region": "footer",
+      "seenOn": "https://www.quavo.com/",
+      "template": "quavo-labs"
+    },
+    {
+      "to": "https://www.quavo.com/about/",
+      "href": "https://www.quavo.com/about/",
+      "text": "About",
+      "region": "footer",
+      "seenOn": "https://www.quavo.com/",
+      "template": "about"
+    },
+    {
+      "to": "https://www.quavo.com/newsroom/",
+      "href": "https://www.quavo.com/newsroom/",
+      "text": "Newsroom",
+      "region": "footer",
+      "seenOn": "https://www.quavo.com/",
+      "template": "newsroom"
+    },
+    {
+      "to": "https://www.quavo.com/careers/",
+      "href": "https://www.quavo.com/careers/",
+      "text": "Careers",
+      "region": "footer",
+      "seenOn": "https://www.quavo.com/",
+      "template": "careers"
+    },
+    {
+      "to": "https://www.quavo.com/partners/",
+      "href": "https://www.quavo.com/partners/",
+      "text": "Partners",
+      "region": "footer",
+      "seenOn": "https://www.quavo.com/",
+      "template": "partners"
+    },
+    {
+      "to": "https://www.quavo.com/contact-us/",
+      "href": "https://www.quavo.com/contact-us/",
+      "text": "Get in Touch",
+      "hidden": true,
+      "region": "header",
+      "seenOn": "https://www.quavo.com/",
+      "template": "contact-us"
+    },
+    {
+      "to": "https://www.quavo.com/privacy-policy/",
+      "href": "/privacy-policy/",
+      "text": "Privacy Statement",
+      "region": "footer",
+      "newTab": true,
+      "seenOn": "https://www.quavo.com/",
+      "template": "privacy-policy"
+    },
+    {
+      "to": "https://www.quavo.com/terms-and-conditions/",
+      "href": "/terms-and-conditions/",
+      "text": "Terms of Use",
+      "region": "footer",
+      "newTab": true,
+      "seenOn": "https://www.quavo.com/",
+      "template": "terms-and-conditions"
+    },
+    {
+      "to": "https://www.quavo.com/",
+      "href": "/",
+      "spellings": [
+        "https://www.quavo.com/"
+      ],
+      "text": "Quavo Full Color",
+      "region": "footer",
+      "seenOn": "https://www.quavo.com/terms-and-conditions/",
+      "template": "home"
+    }
+  ],
+  "templates": [
+    {
+      "id": "home",
+      "name": "HomePage",
+      "urlPatterns": [
+        "/"
+      ],
+      "pages": [
+        "https://www.quavo.com/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Quavo | Fraud and Dispute Management Software for Issuers",
+      "sharedHeadings": [
+        "FRAUD AND DISPUTE MANAGEMENT",
+        "Now It Pays to Make It Right.",
+        "Still paying the cost of making it right?",
+        "What if you could...",
+        "Get experience on your side",
+        "Get compliance working for you",
+        "Get results you can grow on",
+        "Trusted By",
+        "Solutions",
+        "Fraud and Dispute Management Solutions Tailored to Your Needs",
+        "Issuing Banks",
+        "Credit Unions",
+        "Fintechs",
+        "Processors",
+        "Sponsor Banks",
+        "Case Study",
+        "90%",
+        "$482,000+",
+        "Testimonials",
+        "Learn how Quavo has impacted the financial industry.",
+        "Barbara Valona",
+        "VP, Bank Card Center Manager, First Hawaiian Bank",
+        "James Richie",
+        "VP Payment Services at Rogue CU",
+        "Darius Alcaire",
+        "Director, Account and Card Operations at BECU",
+        "Trina Becker",
+        "Manager of Fraud and Disputes at Veridian Credit Union",
+        "RELATED SOLUTIONS",
+        "Explore the Solutions Behind Faster Fraud and Dispute Resolution.",
+        "QFD®",
+        "QFD® AI",
+        "Our Offering",
+        "Quavo by the numbers",
+        "Fraud and dispute management, powered by trust.",
+        "Frequently asked questions",
+        "Common questions about Fraud & Dispute Management",
+        "Resources",
+        "Insights to Fuel Your Growth",
+        "The Cost of Making It Right Whitepaper",
+        "The First 48-Hours: Why Speed Matters in Fraud Claim Resolution",
+        "The 2026 State of Dispute Management",
+        "Key KPIs for Managing Fraud and Dispute Claims Efficiently",
+        "Dishing On Disputes Webinar Series",
+        "Winner - 2026",
+        "CreditUnions.com Innovation Series",
+        "Fraud Prevention and Resolution Category",
+        "Winner - 2025",
+        "Banking Tech Awards USA",
+        "Best as-a-Service Solution – Dispute Management & Resolution",
+        "Winner - 2024",
+        "Tech of the Future",
+        "Certified",
+        "SOC 1 TYPE 1",
+        "For Service Organizations",
+        "SOC 2 TYPE 2",
+        "pci compliant",
+        "PCI Security Standards Council",
+        "KeyBridge",
+        "Certified by Corelation, Inc.",
+        "Products",
+        "Company",
+        "Follow Us"
+      ],
+      "inMenu": true,
+      "linksTo": [
+        {
+          "template": "case-study",
+          "count": 2,
+          "example": {
+            "from": "https://www.quavo.com/",
+            "to": "https://www.quavo.com/case-study/first-hawaiian-bank/",
+            "href": "/case-study/first-hawaiian-bank/",
+            "text": "Read Case Study"
+          }
+        },
+        {
+          "template": "insight",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/",
+            "to": "https://www.quavo.com/insight/the-first-48-hours-why-speed-matters-in-fraud-claim-resolution/",
+            "href": "https://www.quavo.com/insight/the-first-48-hours-why-speed-matters-in-fraud-claim-resolution/",
+            "text": "Read more"
+          }
+        },
+        {
+          "template": "download",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/",
+            "to": "https://www.quavo.com/download/the-2026-state-of-dispute-management/",
+            "href": "https://www.quavo.com/download/the-2026-state-of-dispute-management/",
+            "text": "Download now"
+          }
+        },
+        {
+          "template": "webinars",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/",
+            "to": "https://www.quavo.com/webinars/",
+            "href": "https://www.quavo.com/webinars/",
+            "text": "Watch now"
+          }
+        }
+      ],
+      "controls": [
+        {
+          "kind": "expander",
+          "words": [],
+          "region": "main",
+          "xpath": "//summary[normalize-space()='What is the fraud management process?']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/"
+        },
+        {
+          "kind": "expander",
+          "words": [],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'What is the difference between fraud and')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/"
+        },
+        {
+          "kind": "expander",
+          "words": [],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'What is the most successful reason for')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/"
+        },
+        {
+          "kind": "expander",
+          "words": [],
+          "region": "main",
+          "xpath": "//summary[normalize-space()='What are the 4 Ps of fraud?']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/"
+        },
+        {
+          "kind": "expander",
+          "words": [],
+          "region": "main",
+          "xpath": "//summary[normalize-space()='What is the 10/80/10 rule for fraud?']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/"
+        }
+      ],
+      "why": {
+        "rule": "start-page",
+        "says": "the start page: always a page type of its own, since every test starts there"
+      }
+    },
+    {
+      "id": "terms-and-conditions",
+      "name": "TermsAndConditionsPage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/terms-and-conditions/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Terms and Conditions | Quavo Fraud & Disputes",
+      "sharedHeadings": [
+        "Terms and Conditions",
+        "1. CHANGES TO THESE TERMS OF USE",
+        "2. ONLINE SERVICES",
+        "3. USE OF ONLINE SERVICES",
+        "4. ADDITIONAL TERMS OF USE FOR CERTAIN ONLINE SERVICES",
+        "5. YOUR PROVISION OF PERSONAL INFORMATION TO US",
+        "6. LINKS TO OTHER WEBSITES AND ONLINE SERVICES",
+        "7. DISCLAIMER OF WARRANTIES",
+        "8. LIMITATION OF LIABILITY",
+        "9. INDEMNIFICATION",
+        "10. MISCELLANEOUS",
+        "Solutions",
+        "Products",
+        "Resources",
+        "Company",
+        "Follow Us"
+      ],
+      "inMenu": true,
+      "linksTo": [],
+      "why": {
+        "rule": "layout-only",
+        "says": "laid out like /download/case-study-sofi-tech-simplifies-dispute-management-at-scale/, /webinar/dishing-on-disputes-building-member-trust-through-dispute-operations/, /download/turning-fraud-challenges-into-customer-loyalty-opportunities/ and 9 more, but no title or heading says they are one kind of page, and their addresses share no part: each is its own"
+      }
+    },
+    {
+      "id": "resources",
+      "name": "ResourcesPage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/resources/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Resources and Document Center | Quavo Fraud & Disputes",
+      "sharedHeadings": [
+        "Resources",
+        "Search",
+        "Case Studies",
+        "Altura Modernizes Dispute Operations, Empowering Member Satisfaction",
+        "Veridian Credit Union Drives Efficiency and Member Approval with QFD® and DRE™",
+        "Blog",
+        "7 Questions to Ask Before You Outsource Fraud and Disputes",
+        "In the AI Era, Trust Is Everything",
+        "Insights",
+        "The Last Mile of Real-Time Payments is Still Manual",
+        "Merchant Failures are Becoming a Stress Test for Banks",
+        "Videos",
+        "Quavo AI | Demo",
+        "A Consumer’s Guide to Filing a Dispute",
+        "Downloads",
+        "How Fraud and Scam Resolution Shapes Trust, Loyalty, and Customer Value in 2026",
+        "The 2026 State of Dispute Management",
+        "Fraud Resolution Done Right",
+        "The Cost of Making It Right",
+        "Dishing on Disputes Webinar Series",
+        "Dishing On Disputes: Lessons from Building First-Party Fraud Automation",
+        "Dishing On Disputes: What Happens When the Call Comes from Inside the House?",
+        "Dishing On Disputes: 5 Reporting Metrics Every Dispute Leader Should Track",
+        "Solutions",
+        "Products",
+        "Company",
+        "Follow Us"
+      ],
+      "inMenu": true,
+      "linksTo": [
+        {
+          "template": "related-resources",
+          "count": 5,
+          "example": {
+            "from": "https://www.quavo.com/resources/",
+            "to": "https://www.quavo.com/in-the-ai-era-trust-is-everything/",
+            "href": "https://www.quavo.com/in-the-ai-era-trust-is-everything/",
+            "text": "In the AI Era, Trust Is Everything"
+          }
+        },
+        {
+          "template": "insight",
+          "count": 3,
+          "example": {
+            "from": "https://www.quavo.com/resources/",
+            "to": "https://www.quavo.com/insight/the-last-mile-of-real-time-payments-is-still-manual/",
+            "href": "https://www.quavo.com/insight/the-last-mile-of-real-time-payments-is-still-manual/",
+            "text": "The Last Mile of Real-Time Payments is Still Manual"
+          }
+        },
+        {
+          "template": "download",
+          "count": 2,
+          "example": {
+            "from": "https://www.quavo.com/resources/",
+            "to": "https://www.quavo.com/download/how-fraud-and-scam-resolution-shapes-trust-loyalty-and-customer-value-in-2026/",
+            "href": "https://www.quavo.com/download/how-fraud-and-scam-resolution-shapes-trust-loyalty-and-customer-value-in-2026/",
+            "text": "Download"
+          }
+        },
+        {
+          "template": "case-study",
+          "count": 2,
+          "example": {
+            "from": "https://www.quavo.com/resources/",
+            "to": "https://www.quavo.com/case-study/rogue-credit-union/",
+            "href": "https://www.quavo.com/case-study/rogue-credit-union/",
+            "text": "Rogue Credit Union Partners with Quavo to Improve Member Satisfaction with Best…"
+          }
+        },
+        {
+          "template": "webinar",
+          "count": 2,
+          "example": {
+            "from": "https://www.quavo.com/resources/",
+            "to": "https://www.quavo.com/webinar/dishing-on-disputes-from-manual-to-modern-a-roadmap-for-dispute-transformation/",
+            "href": "https://www.quavo.com/webinar/dishing-on-disputes-from-manual-to-modern-a-roadmap-for-dispute-transformation/",
+            "text": "Dishing On Disputes – From Manual to Modern: A Roadmap for Dispute Transformati…"
+          }
+        }
+      ],
+      "controls": [
+        {
+          "kind": "search field",
+          "words": [
+            "Search",
+            "Search...",
+            "s"
+          ],
+          "region": "main",
+          "form": "search",
+          "xpath": "//input[@name='s']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/resources/"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Search"
+          ],
+          "region": "main",
+          "form": "search",
+          "xpath": "//button[@aria-label='Search']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/resources/"
+        }
+      ],
+      "why": {
+        "rule": "layout-only",
+        "says": "laid out like /newsroom/, but no title or heading says they are one kind of page, and their addresses share no part: each is its own"
+      }
+    },
+    {
+      "id": "trusted-by",
+      "name": "TrustedByPage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/issuing-banks/",
+        "https://www.quavo.com/credit-unions/",
+        "https://www.quavo.com/fintech/",
+        "https://www.quavo.com/processors/"
+      ],
+      "repeated": true,
+      "knownUrls": 4,
+      "titlePattern": null,
+      "sharedHeadings": [
+        "Trusted By",
+        "1",
+        "2",
+        "3",
+        "RESOURCES",
+        "The 2025 State of Dispute Management",
+        "Frequently asked questions",
+        "Solutions",
+        "Products",
+        "Company",
+        "Follow Us"
+      ],
+      "headingSpellings": {
+        "RESOURCES": [
+          "RESOURCES",
+          "Resources"
+        ]
+      },
+      "inMenu": true,
+      "linksTo": [
+        {
+          "template": "related-resources",
+          "count": 6,
+          "example": {
+            "from": "https://www.quavo.com/issuing-banks/",
+            "to": "https://www.quavo.com/from-hands-on-hustle-to-intelligent-automation-how-qfd-is-transforming-dispute-management/",
+            "href": "https://www.quavo.com/from-hands-on-hustle-to-intelligent-automation-how-qfd-is-transforming-dispute-management/",
+            "text": "From Hands-On Hustle to Intelligent Automation: How QFD Is Transforming Dispute…"
+          }
+        },
+        {
+          "template": "insight",
+          "count": 4,
+          "example": {
+            "from": "https://www.quavo.com/issuing-banks/",
+            "to": "https://www.quavo.com/insight/the-first-48-hours-why-speed-matters-in-fraud-claim-resolution/",
+            "href": "https://www.quavo.com/insight/the-first-48-hours-why-speed-matters-in-fraud-claim-resolution/",
+            "text": "The First 48-Hours: Why Speed Matters in Fraud Claim Resolution"
+          }
+        },
+        {
+          "template": "case-study",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/issuing-banks/",
+            "to": "https://www.quavo.com/case-study/first-hawaiian-bank/",
+            "href": "https://www.quavo.com/case-study/first-hawaiian-bank/",
+            "text": "Read the Case Study"
+          }
+        }
+      ],
+      "controls": [
+        {
+          "kind": "expander",
+          "words": [
+            "What is the process of a bank dispute?"
+          ],
+          "region": "main",
+          "xpath": "//summary[normalize-space()='What is the process of a bank dispute?']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/issuing-banks/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "What is a dispute management system?"
+          ],
+          "region": "main",
+          "xpath": "//summary[normalize-space()='What is a dispute management system?']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/issuing-banks/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "What are the 4 types of dispute?"
+          ],
+          "region": "main",
+          "xpath": "//summary[normalize-space()='What are the 4 types of dispute?']",
+          "stability": "OK",
+          "pages": 2,
+          "seenOn": "https://www.quavo.com/issuing-banks/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "How do you file a dispute with your bank for a fraudulent..."
+          ],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'How do you file a dispute with your bank')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/issuing-banks/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "What documentation is needed to support a bank transactio..."
+          ],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'What documentation is needed to support')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/issuing-banks/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "What is the dispute management process?"
+          ],
+          "region": "main",
+          "xpath": "//summary[normalize-space()='What is the dispute management process?']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/credit-unions/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "Can a credit union dispute a charge?"
+          ],
+          "region": "main",
+          "xpath": "//summary[normalize-space()='Can a credit union dispute a charge?']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/credit-unions/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "What steps are involved in resolving a billing dispute?"
+          ],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'What steps are involved in resolving a')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/credit-unions/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "How long does a typical dispute investigation take?"
+          ],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'How long does a typical dispute')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/credit-unions/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "What is dispute management in fintech?"
+          ],
+          "region": "main",
+          "xpath": "//summary[normalize-space()='What is dispute management in fintech?']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/fintech/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "How do fintech companies handle transaction disputes?"
+          ],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'How do fintech companies handle')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/fintech/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "What are common causes of disputes in fintech platforms?"
+          ],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'What are common causes of disputes in')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/fintech/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "What steps should a customer take to resolve a fintech di..."
+          ],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'What steps should a customer take to')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/fintech/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "How can fintech firms prevent recurring disputes?"
+          ],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'How can fintech firms prevent recurring')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/fintech/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "What is a dispute management platform for payment process..."
+          ],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'What is a dispute management platform')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/processors/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "How does a dispute management platform reduce chargebacks?"
+          ],
+          "region": "main",
+          "xpath": "(//summary[starts-with(normalize-space(),'How does a dispute management platform')])[1]",
+          "stability": "Fragile",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/processors/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "What features should payment processors look for in a dis..."
+          ],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'What features should payment processors')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/processors/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "How does a dispute management platform integrate with exi..."
+          ],
+          "region": "main",
+          "xpath": "(//summary[starts-with(normalize-space(),'How does a dispute management platform')])[2]",
+          "stability": "Fragile",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/processors/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "What are the typical costs of implementing a dispute mana..."
+          ],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'What are the typical costs of')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/processors/"
+        }
+      ],
+      "why": {
+        "rule": "family-by-evidence",
+        "says": "its 4 pages read look alike (layout 82% the same, headings 23%), and every page shows the heading \"Trusted By\"; joined by: the layouts agree, with some headings shared (6 comparisons)",
+        "joinedBy": [
+          {
+            "rule": "layout-and-some-headings",
+            "pairs": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "insight",
+      "name": "InsightPage",
+      "urlPatterns": [
+        "/insight/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/insight/loyaltys-bottom-line-balancing-customer-acquisition-retention-and-fraud-resolution-costs/",
+        "https://www.quavo.com/insight/modernizing-fraud-disputes-with-four-proven-strategies/",
+        "https://www.quavo.com/insight/fraud-and-scam-resolution-leadership-alignment/",
+        "https://www.quavo.com/insight/the-ins-and-outs-of-provisional-credits/",
+        "https://www.quavo.com/insight/the-last-mile-of-real-time-payments-is-still-manual/",
+        "https://www.quavo.com/insight/issuers-acquirers-understanding-key-players-in-dispute-resolution/",
+        "https://www.quavo.com/insight/banking-on-trust-turning-fraud-resolution-into-a-business-win/",
+        "https://www.quavo.com/insight/merchant-failure-chargeback-surge-dispute-operations/",
+        "https://www.quavo.com/insight/when-better-disputes-lower-your-costs-how-credit-unions-can-make-it-right-faster/",
+        "https://www.quavo.com/insight/infographic-trusts-role-in-customer-loyalty-for-financial-institutions/",
+        "https://www.quavo.com/insight/fraud-dispute-resolution-a-defining-cx-moment/",
+        "https://www.quavo.com/insight/how-ai-is-transforming-fraud-and-dispute-management-for-financial-institutions/",
+        "https://www.quavo.com/insight/dispute-resolution-speed-reducing-costs/",
+        "https://www.quavo.com/insight/the-fraud-ai-stack-is-scaling-faster-than-you-are/",
+        "https://www.quavo.com/insight/heres-your-due-diligence-checklist-for-ai-fraud-dispute-management/",
+        "https://www.quavo.com/insight/a-friendly-introduction-to-regulation-z/",
+        "https://www.quavo.com/insight/the-first-48-hours-why-speed-matters-in-fraud-claim-resolution/",
+        "https://www.quavo.com/insight/growing-without-growing-pains-how-credit-unions-can-efficiently-scale-fraud-and-dispute-operations/",
+        "https://www.quavo.com/insight/closing-fraud-resolution-gaps-agentic-ai-as-credit-unions-new-service-advantage/",
+        "https://www.quavo.com/insight/investigating-fraud-claims-using-quavos-fraud-management-ai/"
+      ],
+      "repeated": true,
+      "knownUrls": 34,
+      "titlePattern": null,
+      "sharedHeadings": [
+        "HIGHLIGHTS",
+        "Solutions",
+        "Products",
+        "Resources",
+        "Company",
+        "Follow Us"
+      ],
+      "inMenu": false,
+      "linksTo": [
+        {
+          "template": "insight",
+          "count": 63,
+          "example": {
+            "from": "https://www.quavo.com/insight/loyaltys-bottom-line-balancing-customer-acquisition-retention-and-fraud-resolution-costs/",
+            "to": "https://www.quavo.com/insight/banking-on-trust-turning-fraud-resolution-into-a-business-win/",
+            "href": "https://www.quavo.com/insight/banking-on-trust-turning-fraud-resolution-into-a-business-win/",
+            "text": "the cost of that churn adds up quickly"
+          }
+        },
+        {
+          "template": "download",
+          "count": 9,
+          "example": {
+            "from": "https://www.quavo.com/insight/loyaltys-bottom-line-balancing-customer-acquisition-retention-and-fraud-resolution-costs/",
+            "to": "https://www.quavo.com/download/turning-fraud-challenges-into-customer-loyalty-opportunities/",
+            "href": "https://www.quavo.com/download/turning-fraud-challenges-into-customer-loyalty-opportunities/",
+            "text": "Trust in Banking research"
+          }
+        },
+        {
+          "template": "related-resources",
+          "count": 6,
+          "example": {
+            "from": "https://www.quavo.com/insight/loyaltys-bottom-line-balancing-customer-acquisition-retention-and-fraud-resolution-costs/",
+            "to": "https://www.quavo.com/news/quavo-publishes-consumer-research/",
+            "href": "https://www.quavo.com/news/quavo-publishes-consumer-research/",
+            "text": "Impact of Fraud Resolution on Loyalty"
+          }
+        }
+      ],
+      "why": {
+        "rule": "family-by-address",
+        "says": "its 20 pages read look alike (layout 94% the same, headings 41%) and share the address pattern /insight/*; joined by: the layouts agree, with some headings shared (184 comparisons); the headings agree, with some layout shared (6 comparisons)",
+        "joinedBy": [
+          {
+            "rule": "layout-and-some-headings",
+            "pairs": 184
+          },
+          {
+            "rule": "headings-agree",
+            "pairs": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "download",
+      "name": "DownloadPage",
+      "urlPatterns": [
+        "/download/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/download/case-study-sofi-tech-simplifies-dispute-management-at-scale/",
+        "https://www.quavo.com/download/turning-fraud-challenges-into-customer-loyalty-opportunities/",
+        "https://www.quavo.com/download/how-fraud-and-scam-resolution-shapes-trust-loyalty-and-customer-value-in-2026/",
+        "https://www.quavo.com/download/the-2026-state-of-dispute-management/",
+        "https://www.quavo.com/download/fraud-resolution-reimagined-a-blueprint-for-trust-in-banking/"
+      ],
+      "repeated": true,
+      "knownUrls": 9,
+      "titlePattern": null,
+      "sharedHeadings": [
+        "FREE DOWNLOAD",
+        "Solutions",
+        "Products",
+        "Resources",
+        "Company",
+        "Follow Us"
+      ],
+      "inMenu": true,
+      "linksTo": [],
+      "why": {
+        "rule": "family-by-address",
+        "says": "its 5 pages read look alike (layout 84% the same, headings 47%) and share the address pattern /download/*; joined by: the layouts agree, with some headings shared (7 comparisons); the headings agree, with some layout shared (3 comparisons)",
+        "joinedBy": [
+          {
+            "rule": "layout-and-some-headings",
+            "pairs": 7
+          },
+          {
+            "rule": "headings-agree",
+            "pairs": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-study",
+      "name": "CaseStudyPage",
+      "urlPatterns": [
+        "/case-study/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/case-study/altura-modernizes-dispute-operations-empowering-member-satisfaction/",
+        "https://www.quavo.com/case-study/rogue-credit-union/",
+        "https://www.quavo.com/case-study/first-hawaiian-bank/"
+      ],
+      "repeated": true,
+      "knownUrls": 5,
+      "titlePattern": null,
+      "sharedHeadings": [
+        "CASE STUDY",
+        "Focus",
+        "Net Worth",
+        "QUAVO PRODUCTS USED",
+        "Ready to get started?",
+        "Results",
+        "Now it pays to make it right.",
+        "Solutions",
+        "Products",
+        "Resources",
+        "Company",
+        "Follow Us"
+      ],
+      "headingSpellings": {
+        "Now it pays to make it right.": [
+          "Now it pays to make it right.",
+          "Now It Pays to Make It Right."
+        ]
+      },
+      "inMenu": true,
+      "linksTo": [
+        {
+          "template": "case-study",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/case-study/altura-modernizes-dispute-operations-empowering-member-satisfaction/",
+            "to": "https://www.quavo.com/case-study/rogue-credit-union/",
+            "href": "https://www.quavo.com/case-study/rogue-credit-union/",
+            "text": "Streamlined Claim Intake and Investigation"
+          }
+        },
+        {
+          "template": "webinar",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/case-study/altura-modernizes-dispute-operations-empowering-member-satisfaction/",
+            "to": "https://www.quavo.com/webinar/dishing-on-disputes-building-member-trust-through-dispute-operations/",
+            "href": "https://www.quavo.com/webinar/dishing-on-disputes-building-member-trust-through-dispute-operations/",
+            "text": "Building Member Trust Through Dispute Operations"
+          }
+        },
+        {
+          "template": "related-resources",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/case-study/rogue-credit-union/",
+            "to": "https://www.quavo.com/all-about-pre-arbitration/",
+            "href": "https://www.quavo.com/all-about-pre-arbitration/",
+            "text": "Understanding Pre-Arbitration for Chargebacks"
+          }
+        }
+      ],
+      "why": {
+        "rule": "family-by-address",
+        "says": "its 3 pages read look alike (layout 92% the same, headings 36%) and share the address pattern /case-study/*; joined by: the layouts agree, with some headings shared (3 comparisons)",
+        "joinedBy": [
+          {
+            "rule": "layout-and-some-headings",
+            "pairs": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "webinar",
+      "name": "WebinarPage",
+      "urlPatterns": [
+        "/webinar/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/webinar/dishing-on-disputes-building-member-trust-through-dispute-operations/",
+        "https://www.quavo.com/webinar/dishing-on-disputes-what-happens-when-the-call-comes-from-inside-the-house/",
+        "https://www.quavo.com/webinar/dishing-on-disputes-from-manual-to-modern-a-roadmap-for-dispute-transformation/",
+        "https://www.quavo.com/webinar/dishing-on-disputes-achieving-success-by-measuring-dispute-write-offs-losses-recapture-rates/"
+      ],
+      "repeated": true,
+      "knownUrls": 7,
+      "titlePattern": null,
+      "sharedHeadings": [
+        "Webinar",
+        "Pre-Recorded",
+        "Solutions",
+        "Products",
+        "Resources",
+        "Company",
+        "Follow Us"
+      ],
+      "inMenu": false,
+      "linksTo": [
+        {
+          "template": "webinar",
+          "count": 2,
+          "example": {
+            "from": "https://www.quavo.com/webinar/dishing-on-disputes-what-happens-when-the-call-comes-from-inside-the-house/",
+            "to": "https://www.quavo.com/webinar/dishing-on-disputes-building-member-trust-through-dispute-operations/",
+            "href": "https://www.quavo.com/webinar/dishing-on-disputes-building-member-trust-through-dispute-operations/",
+            "text": "Building Member Trust Through Dispute Operations"
+          }
+        }
+      ],
+      "why": {
+        "rule": "family-by-address",
+        "says": "its 4 pages read look alike (layout 97% the same, headings 88%) and share the address pattern /webinar/*; joined by: the headings agree, with some layout shared (6 comparisons)",
+        "joinedBy": [
+          {
+            "rule": "headings-agree",
+            "pairs": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "related-resources",
+      "name": "RelatedResourcesPage",
+      "urlPatterns": [
+        "/*/*",
+        "/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/video/build-vs-buy-dispute-management-solution/",
+        "https://www.quavo.com/video/ins-outs-of-provisional-credit-regulation-e/",
+        "https://www.quavo.com/video/a-consumers-guide-to-filing-a-dispute/",
+        "https://www.quavo.com/news/quavo-publishes-consumer-research/",
+        "https://www.quavo.com/news/quavo-releases-second-annual-trust-in-banking-study/",
+        "https://www.quavo.com/news/subscription-chargeback-win-rates-quavo-labs/",
+        "https://www.quavo.com/news/quavo-elevates-executive-leadership-with-appointment-of-david-oldershaw-as-coo-and-tony-digiorgio-as-cto/",
+        "https://www.quavo.com/news/quavo-fraud-disputes-earns-soc-1-report-demonstrating-commitment-to-financial-institution-controls/",
+        "https://www.quavo.com/news/quavo-fraud-disputes-secures-300-million-growth-investment-from-spectrum-equity/",
+        "https://www.quavo.com/news/quavo-named-winner-of-the-2026-creditunions-com-innovation-series-fraud-prevention-and-resolution-category/",
+        "https://www.quavo.com/video/claim-intake-powered-by-qfd/",
+        "https://www.quavo.com/news/quavo-fraud-disputes-named-best-dispute-management-resolution-solution-by-fintech-futures/",
+        "https://www.quavo.com/news/pegasystems-announces-first-six-companies-funded-by-pega-service-ventures-to-empower-customer-success/",
+        "https://www.quavo.com/news/quavo-inc-secures-trademark-registration-for-fraud-management-technology-aria/",
+        "https://www.quavo.com/fis-face-regulatory-scrutiny-increases-in-fraud/",
+        "https://www.quavo.com/types-of-transactions-covered-by-reg-e/",
+        "https://www.quavo.com/origins-of-the-cfpb/",
+        "https://www.quavo.com/video/back-office-powered-by-qfd/",
+        "https://www.quavo.com/news/quavo-names-2026-trust-in-banking-award-winners-recognizing-dispute-resolution-excellence/",
+        "https://www.quavo.com/building-a-development-driven-support-team/",
+        "https://www.quavo.com/news/quavo-inc-releases-automatic-visa-mastercard-chargeback-updates/",
+        "https://www.quavo.com/types-of-transactions-covered-by-reg-z/",
+        "https://www.quavo.com/from-hands-on-hustle-to-intelligent-automation-how-qfd-is-transforming-dispute-management/",
+        "https://www.quavo.com/how-to-go-above-and-beyond-compliance-doing-the-right-thing-in-reg-tech/",
+        "https://www.quavo.com/mastercard-pre-arbitration-mandates/",
+        "https://www.quavo.com/video/a-friendly-introduction-to-reg-z/",
+        "https://www.quavo.com/in-the-ai-era-trust-is-everything/",
+        "https://www.quavo.com/news/quavo-unveils-industrys-first-ai-powered-analyst-delivering-end-to-end-24-7-dispute-automation/",
+        "https://www.quavo.com/the-hard-work-behind-faster-more-reliable-fraud-dispute-data/",
+        "https://www.quavo.com/all-about-pre-arbitration/",
+        "https://www.quavo.com/building-product-delivery-teams-in-fintech/",
+        "https://www.quavo.com/news/fintech-provider-quavo-inc-announces-soc-2-type-1-certification-completion/",
+        "https://www.quavo.com/news/quavo-leads-the-way-in-fraud-operations-with-consortium-based-intelligence/",
+        "https://www.quavo.com/cfpb-under-biden-administration/",
+        "https://www.quavo.com/nuance-why-context-changes-the-meaning-of-data/",
+        "https://www.quavo.com/video/a-beginners-guide-to-chargebacks/"
+      ],
+      "repeated": true,
+      "knownUrls": 88,
+      "titlePattern": null,
+      "sharedHeadings": [
+        "Related Resources",
+        "Resources",
+        "Follow Us"
+      ],
+      "inMenu": false,
+      "linksTo": [
+        {
+          "template": "related-resources",
+          "count": 103,
+          "example": {
+            "from": "https://www.quavo.com/video/build-vs-buy-dispute-management-solution/",
+            "to": "https://www.quavo.com/video/a-consumers-guide-to-filing-a-dispute/",
+            "href": "https://www.quavo.com/video/a-consumers-guide-to-filing-a-dispute/",
+            "text": "A Consumer’s Guide to Filing a Dispute"
+          }
+        },
+        {
+          "template": "insight",
+          "count": 8,
+          "example": {
+            "from": "https://www.quavo.com/video/ins-outs-of-provisional-credit-regulation-e/",
+            "to": "https://www.quavo.com/insight/the-ins-and-outs-of-provisional-credits/",
+            "href": "https://www.quavo.com/insight/the-ins-and-outs-of-provisional-credits/",
+            "text": "Ins and Outs of Provisional Credits"
+          }
+        },
+        {
+          "template": "download",
+          "count": 2,
+          "example": {
+            "from": "https://www.quavo.com/news/quavo-publishes-consumer-research/",
+            "to": "https://www.quavo.com/download/turning-fraud-challenges-into-customer-loyalty-opportunities/",
+            "href": "https://www.quavo.com/download/turning-fraud-challenges-into-customer-loyalty-opportunities/",
+            "text": "Q4 2024 Consumer Survey",
+            "newTab": true
+          }
+        },
+        {
+          "template": "case-study",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/building-a-development-driven-support-team/",
+            "to": "https://www.quavo.com/case-study/rogue-credit-union/",
+            "href": "https://www.quavo.com/case-study/rogue-credit-union/",
+            "text": "Streamlined Claim Intake and Investigation"
+          }
+        },
+        {
+          "template": "press-release-use-case",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/news/quavo-publishes-consumer-research/",
+            "to": "https://www.quavo.com/press-release-use-cases/credit-union/",
+            "href": "https://www.quavo.com/press-release-use-cases/credit-union/",
+            "text": "Use Case: Credit Union"
+          }
+        },
+        {
+          "template": "quavo-lab",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/news/subscription-chargeback-win-rates-quavo-labs/",
+            "to": "https://www.quavo.com/quavo-labs/the-streaming-chargeback-is-getting-harder-to-win/",
+            "href": "https://www.quavo.com/quavo-labs/the-streaming-chargeback-is-getting-harder-to-win/?&utm_source=notified&utm_medium=press_release&utm_campaign=2026q3_all_labs_launch&utm_content=blog_streaming_chargeback",
+            "text": "Quavo Labs"
+          }
+        },
+        {
+          "template": "quarterly-newsletter-q2",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/news/quavo-fraud-disputes-secures-300-million-growth-investment-from-spectrum-equity/",
+            "to": "https://www.quavo.com/quarterly-newsletter/q2-2025/",
+            "href": "https://www.quavo.com/quarterly-newsletter/q2-2025/",
+            "text": "Credit Card Dispute and Fraud Management"
+          }
+        }
+      ],
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "Share on facebook"
+          ],
+          "region": "main",
+          "xpath": "//div[@aria-label='Share on facebook']",
+          "stability": "Strong",
+          "pages": 36,
+          "seenOn": "https://www.quavo.com/video/build-vs-buy-dispute-management-solution/"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Share on twitter"
+          ],
+          "region": "main",
+          "xpath": "//div[@aria-label='Share on twitter']",
+          "stability": "Strong",
+          "pages": 36,
+          "seenOn": "https://www.quavo.com/video/build-vs-buy-dispute-management-solution/"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Share on linkedin"
+          ],
+          "region": "main",
+          "xpath": "//div[@aria-label='Share on linkedin']",
+          "stability": "Strong",
+          "pages": 36,
+          "seenOn": "https://www.quavo.com/video/build-vs-buy-dispute-management-solution/"
+        }
+      ],
+      "why": {
+        "rule": "family-by-address",
+        "says": "its 36 pages read look alike (layout 89% the same, headings 56%) and share the address pattern /*/*; joined by: the layouts agree, with some headings shared (471 comparisons); the headings agree, with some layout shared (159 comparisons)",
+        "joinedBy": [
+          {
+            "rule": "layout-and-some-headings",
+            "pairs": 471
+          },
+          {
+            "rule": "headings-agree",
+            "pairs": 159
+          }
+        ]
+      }
+    },
+    {
+      "id": "press-release-use-case",
+      "name": "PressReleaseUseCasePage",
+      "urlPatterns": [
+        "/press-release-use-cases/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/press-release-use-cases/credit-union/",
+        "https://www.quavo.com/press-release-use-cases/fintech/"
+      ],
+      "repeated": true,
+      "knownUrls": 2,
+      "titlePattern": "{name} Archives | Quavo",
+      "sharedHeadings": [
+        "Ready to Transform Your Dispute Management Process?",
+        "Solutions",
+        "Products",
+        "Resources",
+        "Company",
+        "Follow Us"
+      ],
+      "inMenu": false,
+      "linksTo": [
+        {
+          "template": "related-resources",
+          "count": 14,
+          "example": {
+            "from": "https://www.quavo.com/press-release-use-cases/credit-union/",
+            "to": "https://www.quavo.com/news/subscription-chargeback-win-rates-quavo-labs/",
+            "href": "https://www.quavo.com/news/subscription-chargeback-win-rates-quavo-labs/",
+            "text": "Issuers are Losing More Digital Subscription Chargebacks as Win Rates Fell 35 P…"
+          }
+        },
+        {
+          "template": "press-release-use-case",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/press-release-use-cases/fintech/",
+            "to": "https://www.quavo.com/press-release-use-cases/credit-union/",
+            "href": "https://www.quavo.com/press-release-use-cases/credit-union/",
+            "text": "Use Case: Credit Union"
+          }
+        },
+        {
+          "template": "events-product-qfd",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/press-release-use-cases/fintech/",
+            "to": "https://www.quavo.com/events-product/qfd/",
+            "href": "https://www.quavo.com/events-product/qfd/",
+            "text": "Enhance Dispute Operations with AI"
+          }
+        },
+        {
+          "template": "whitepaper-use-cases-fintech",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/press-release-use-cases/fintech/",
+            "to": "https://www.quavo.com/whitepaper-use-cases/fintech/",
+            "href": "https://www.quavo.com/whitepaper-use-cases/fintech/",
+            "text": "Fintech Dispute Management Insights"
+          }
+        }
+      ],
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "Load More"
+          ],
+          "region": "main",
+          "xpath": "//a[normalize-space()='Load More']",
+          "stability": "OK",
+          "pages": 2,
+          "seenOn": "https://www.quavo.com/press-release-use-cases/credit-union/"
+        }
+      ],
+      "why": {
+        "rule": "family-by-address",
+        "says": "its 2 pages read look alike (layout 100% the same, headings 75%) and share the address pattern /press-release-use-cases/*; joined by: the headings agree, with some layout shared (1 comparison)",
+        "joinedBy": [
+          {
+            "rule": "headings-agree",
+            "pairs": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "quavo-lab",
+      "name": "QuavoLabPage",
+      "urlPatterns": [
+        "/quavo-labs/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/quavo-labs/the-streaming-chargeback-is-getting-harder-to-win/",
+        "https://www.quavo.com/quavo-labs/the-fraud-ai-stack-is-scaling-faster-than-you-are/",
+        "https://www.quavo.com/quavo-labs/the-serial-filer-problem-what-the-data-says-and-what-to-do-about-it/"
+      ],
+      "repeated": true,
+      "knownUrls": 6,
+      "titlePattern": null,
+      "sharedHeadings": [
+        "Ron Rybicki",
+        "Contents",
+        "Contents\u200b",
+        "Recover more with Quavo",
+        "About Ron Rybicki",
+        "Solutions",
+        "Products",
+        "Resources",
+        "Company",
+        "Follow Us"
+      ],
+      "inMenu": false,
+      "linksTo": [],
+      "why": {
+        "rule": "family-by-address",
+        "says": "its 3 pages read look alike (layout 95% the same, headings 48%) and share the address pattern /quavo-labs/*; joined by: the headings agree, with some layout shared (2 comparisons); the layouts agree, with some headings shared (1 comparison)",
+        "joinedBy": [
+          {
+            "rule": "headings-agree",
+            "pairs": 2
+          },
+          {
+            "rule": "layout-and-some-headings",
+            "pairs": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "issue",
+      "name": "IssuePage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/losses/",
+        "https://www.quavo.com/operational-efficiency/",
+        "https://www.quavo.com/compliance/"
+      ],
+      "repeated": true,
+      "knownUrls": 3,
+      "titlePattern": null,
+      "sharedHeadings": [
+        "Trusted By",
+        "Issue 1",
+        "Issue 2",
+        "Issue 3",
+        "Solution 1",
+        "Solution 2",
+        "Solution 3",
+        "Frequently asked questions",
+        "Resources",
+        "The Last Mile of Real-Time Payments is Still Manual",
+        "Solutions",
+        "Products",
+        "Company",
+        "Follow Us"
+      ],
+      "inMenu": true,
+      "linksTo": [
+        {
+          "template": "insight",
+          "count": 9,
+          "example": {
+            "from": "https://www.quavo.com/losses/",
+            "to": "https://www.quavo.com/insight/the-last-mile-of-real-time-payments-is-still-manual/",
+            "href": "https://www.quavo.com/insight/the-last-mile-of-real-time-payments-is-still-manual/",
+            "text": "The Last Mile of Real-Time Payments is Still Manual"
+          }
+        },
+        {
+          "template": "case-study",
+          "count": 4,
+          "example": {
+            "from": "https://www.quavo.com/losses/",
+            "to": "https://www.quavo.com/case-study/first-hawaiian-bank/",
+            "href": "https://www.quavo.com/case-study/first-hawaiian-bank/",
+            "text": "Read the Case Study"
+          }
+        },
+        {
+          "template": "related-resources",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/compliance/",
+            "to": "https://www.quavo.com/how-to-go-above-and-beyond-compliance-doing-the-right-thing-in-reg-tech/",
+            "href": "https://www.quavo.com/how-to-go-above-and-beyond-compliance-doing-the-right-thing-in-reg-tech/",
+            "text": "Read more"
+          }
+        }
+      ],
+      "controls": [
+        {
+          "kind": "expander",
+          "words": [],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'What are dispute management solutions')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/losses/"
+        },
+        {
+          "kind": "expander",
+          "words": [],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'What features should I look for in a')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/losses/"
+        },
+        {
+          "kind": "expander",
+          "words": [],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'How can dispute management solutions')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/losses/"
+        },
+        {
+          "kind": "expander",
+          "words": [],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'What industries benefit most from')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/losses/"
+        },
+        {
+          "kind": "expander",
+          "words": [],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'How do dispute management solutions')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/losses/"
+        },
+        {
+          "kind": "expander",
+          "words": [],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'What is dispute management software and')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/operational-efficiency/"
+        },
+        {
+          "kind": "expander",
+          "words": [],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'What features should I look for in')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/operational-efficiency/"
+        },
+        {
+          "kind": "expander",
+          "words": [],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'How can dispute management software')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/operational-efficiency/"
+        },
+        {
+          "kind": "expander",
+          "words": [],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'What are the benefits of using dispute')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/operational-efficiency/"
+        },
+        {
+          "kind": "expander",
+          "words": [],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'How much does dispute management')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/operational-efficiency/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "What is Reg Z compliance?"
+          ],
+          "region": "main",
+          "xpath": "//summary[normalize-space()='What is Reg Z compliance?']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/compliance/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "What is Reg E compliance?"
+          ],
+          "region": "main",
+          "xpath": "//summary[normalize-space()='What is Reg E compliance?']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/compliance/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "Is Reg E still relevant today?"
+          ],
+          "region": "main",
+          "xpath": "//summary[normalize-space()='Is Reg E still relevant today?']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/compliance/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "Who is exempt from Regulation Z?"
+          ],
+          "region": "main",
+          "xpath": "//summary[normalize-space()='Who is exempt from Regulation Z?']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/compliance/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "What transactions are covered under Regulation Z?"
+          ],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'What transactions are covered under')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/compliance/"
+        }
+      ],
+      "why": {
+        "rule": "family-by-evidence",
+        "says": "its 3 pages read look alike (layout 96% the same, headings 41%), and every page shows the heading \"Trusted By\"; joined by: the layouts agree, with some headings shared (3 comparisons)",
+        "joinedBy": [
+          {
+            "rule": "layout-and-some-headings",
+            "pairs": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "qfd",
+      "name": "QfdPage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/qfd/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "QFD® Dispute Management Platform | Quavo Fraud & Disputes",
+      "sharedHeadings": [
+        "Stop losing disputes you should be winning",
+        "Case queue",
+        "TRUSTED BY BANKS, CREDIT UNIONS, AND FINTECHS",
+        "WHAT MAKES QFD DIFFERENT",
+        "End-to-end dispute management on one AI-powered platform",
+        "Everything you promised the cardholder actually happens",
+        "The right rules for every payment type, not card rules for everything",
+        "Intake built for what the chargeback will need",
+        "AUTOMATION AND AI",
+        "A disputes company that built AI, not the other way around",
+        "HOW IT WORKS",
+        "One workflow, from first report to final recovery",
+        "Start where the cardholder already banks",
+        "WHERE INSTITUTIONS USE QFD",
+        "The situations we hear about most",
+        "First-party fraud is rising and it is hard to prove",
+        "An exam is coming and you need to show your work",
+        "A compromised BIN just created a wave of claims",
+        "Scam claims on person-to-person payments keep climbing",
+        "Your processor charges every time it touches a claim",
+        "Your team swivel-chairs between systems to work one claim",
+        "BENEFITS",
+        "What this changes day-to-day",
+        "People stop calling to ask what is happening",
+        "Deadlines stop costing you money",
+        "More disputes are resolved automatically",
+        "Compliance that scales with you",
+        "Barbara Valona",
+        "INTEGRATIONS",
+        "Already connected",
+        "CORES",
+        "NETWORKS",
+        "MERCHANT TOOLS",
+        "DATA AND REPORTING",
+        "Frequently Asked Questions",
+        "Find out what your disputes are really costing you",
+        "Solutions",
+        "Products",
+        "Resources",
+        "Company",
+        "Follow Us"
+      ],
+      "inMenu": true,
+      "linksTo": [
+        {
+          "template": "download",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/qfd/",
+            "to": "https://www.quavo.com/download/the-2026-state-of-dispute-management/",
+            "href": "https://www.quavo.com/download/the-2026-state-of-dispute-management/",
+            "text": "2026 State of Dispute Management benchmark report"
+          }
+        },
+        {
+          "template": "case-study",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/qfd/",
+            "to": "https://www.quavo.com/case-study/first-hawaiian-bank/",
+            "href": "https://www.quavo.com/case-study/first-hawaiian-bank/",
+            "text": "Read the Case Study"
+          }
+        },
+        {
+          "template": "related-resources",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/qfd/",
+            "to": "https://www.quavo.com/news/pegasystems-announces-first-six-companies-funded-by-pega-service-ventures-to-empower-customer-success/",
+            "href": "https://www.quavo.com/news/pegasystems-announces-first-six-companies-funded-by-pega-service-ventures-to-empower-customer-success/",
+            "text": "Funding for Advisory and Implementation Service"
+          }
+        }
+      ],
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "All"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='All']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/qfd/"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Needs review"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Needs review']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/qfd/"
+        },
+        {
+          "kind": "button",
+          "words": [],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Intake']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/qfd/"
+        },
+        {
+          "kind": "button",
+          "words": [],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Start the investigation']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/qfd/"
+        },
+        {
+          "kind": "button",
+          "words": [],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Handle recovery']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/qfd/"
+        },
+        {
+          "kind": "button",
+          "words": [],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Resolve the case']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/qfd/"
+        }
+      ],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /dre/, shares 71% of its layout and 13% of its headings)"
+      }
+    },
+    {
+      "id": "dre",
+      "name": "DrePage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/dre/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "DRE™ Dispute Resolution Services | Quavo Fraud & Disputes",
+      "sharedHeadings": [
+        "Disputes handled for you, visible to you",
+        "Claim 2026-08814",
+        "WHERE IT STANDS",
+        "WHO WORKED IT",
+        "WHAT THEY DECIDED",
+        "Trusted by 650+ issuers and programs",
+        "WHAT MAKES DRE DIFFERENT",
+        "A team of experts that applies their knowledge to your policies & procedures",
+        "Every decision draws on the whole network",
+        "Network mandates arrive as product updates",
+        "Your policy, enforced by the platform",
+        "QFD runs",
+        "DRE works",
+        "You control",
+        "WHY TEAMS CALL US",
+        "Dispute operations break inpredictable places",
+        "You're managing disputes in-house or through a BPO",
+        "Cases are aging faster than you can close them",
+        "Volume and capacity aren't matching up",
+        "Recovery work isn't getting prioritized",
+        "How it works",
+        "Expert judgment on the cases that need it, all in one system of record",
+        "Your team takes the claim, and the timers start on their own",
+        "Deadlines are held by QFD, not by whoever is working the case",
+        "BENEFITS",
+        "Less exposure, less cost, more recovery.",
+        "Compliance stops being a side job",
+        "More of the disputed dollars come back",
+        "Every claim gets worked the same way",
+        "Trina Becker",
+        "FREQUENTLY ASKED QUESTIONS",
+        "Everything you need to know about DRE",
+        "See what DRE would take off your team's plate",
+        "Solutions",
+        "Products",
+        "Resources",
+        "Company",
+        "Follow Us"
+      ],
+      "inMenu": true,
+      "linksTo": [
+        {
+          "template": "related-resources",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/dre/",
+            "to": "https://www.quavo.com/video/back-office-powered-by-qfd/",
+            "href": "https://www.quavo.com/video/back-office-powered-by-qfd/",
+            "text": "Back-Office Investigation in Dispute Resolution"
+          }
+        }
+      ],
+      "controls": [
+        {
+          "kind": "button",
+          "words": [],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Receive']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/dre/"
+        },
+        {
+          "kind": "button",
+          "words": [],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Enhance']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/dre/"
+        },
+        {
+          "kind": "button",
+          "words": [],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Investigate']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/dre/"
+        },
+        {
+          "kind": "button",
+          "words": [],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Return']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/dre/"
+        }
+      ],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /qfd/, shares 71% of its layout and 13% of its headings)"
+      }
+    },
+    {
+      "id": "article",
+      "name": "ArticlePage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/offering/",
+        "https://www.quavo.com/integrations/"
+      ],
+      "repeated": true,
+      "knownUrls": 2,
+      "titlePattern": null,
+      "sharedHeadings": [
+        "Frequently Asked Questions",
+        "Solutions",
+        "Products",
+        "Resources",
+        "Company",
+        "Follow Us"
+      ],
+      "headingSpellings": {
+        "Frequently Asked Questions": [
+          "Frequently Asked Questions",
+          "Frequently asked questions"
+        ]
+      },
+      "inMenu": true,
+      "linksTo": [
+        {
+          "template": "insight",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/offering/",
+            "to": "https://www.quavo.com/insight/dispute-resolution-speed-reducing-costs/",
+            "href": "https://www.quavo.com/insight/dispute-resolution-speed-reducing-costs/",
+            "text": "Dispute Resolution Speed and Reducing Costs"
+          }
+        },
+        {
+          "template": "case-study",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/integrations/",
+            "to": "https://www.quavo.com/case-study/first-hawaiian-bank/",
+            "href": "https://www.quavo.com/case-study/first-hawaiian-bank/",
+            "text": "Comprehensive Suite of Banking Services"
+          }
+        },
+        {
+          "template": "related-resources",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/offering/",
+            "to": "https://www.quavo.com/news/quavo-leads-the-way-in-fraud-operations-with-consortium-based-intelligence/",
+            "href": "https://www.quavo.com/news/quavo-leads-the-way-in-fraud-operations-with-consortium-based-intelligence/",
+            "text": "Why Consortium-Based Fraud Detection Matters"
+          }
+        }
+      ],
+      "controls": [
+        {
+          "kind": "tab",
+          "words": [
+            "Enhancement A multi-channel digital dispute intake soluti..."
+          ],
+          "region": "main",
+          "xpath": "//li[starts-with(normalize-space(),'Enhancement A multi-channel digital')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/offering/"
+        },
+        {
+          "kind": "tab",
+          "words": [
+            "AI & Orchestration Fully transform your dispute operation..."
+          ],
+          "region": "main",
+          "xpath": "//li[starts-with(normalize-space(),'AI & Orchestration Fully transform your')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/offering/"
+        },
+        {
+          "kind": "tab",
+          "words": [
+            "AI & Operations Streamline your operations with our most..."
+          ],
+          "region": "main",
+          "xpath": "//li[starts-with(normalize-space(),'AI & Operations Streamline your')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/offering/"
+        },
+        {
+          "kind": "tab",
+          "words": [],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Advanced Data']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/offering/"
+        },
+        {
+          "kind": "tab",
+          "words": [],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Advanced Automation AI']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/offering/"
+        },
+        {
+          "kind": "tab",
+          "words": [],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Managed Services with DRE']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/offering/"
+        },
+        {
+          "kind": "tab",
+          "words": [],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Advanced Accountholder Assistant']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/offering/"
+        },
+        {
+          "kind": "tab",
+          "words": [],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Digital Integrations']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/offering/"
+        },
+        {
+          "kind": "tab",
+          "words": [],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Advanced Network Connectivity']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/offering/"
+        },
+        {
+          "kind": "tab",
+          "words": [],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Issuer Disputes']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/offering/"
+        },
+        {
+          "kind": "tab",
+          "words": [],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Tiered Services']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/offering/"
+        },
+        {
+          "kind": "tab",
+          "words": [],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Custom Core']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/offering/"
+        },
+        {
+          "kind": "tab",
+          "words": [],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Postal Mail']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/offering/"
+        },
+        {
+          "kind": "expander",
+          "words": [],
+          "region": "main",
+          "xpath": "//summary[normalize-space()='What is recovery automation?']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/offering/"
+        },
+        {
+          "kind": "expander",
+          "words": [],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'How does QFD® support compliance')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/offering/"
+        },
+        {
+          "kind": "expander",
+          "words": [],
+          "region": "main",
+          "xpath": "//summary[normalize-space()='What workflows can be automated?']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/offering/"
+        },
+        {
+          "kind": "expander",
+          "words": [],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'What are QFD®’s data reporting')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/offering/"
+        },
+        {
+          "kind": "expander",
+          "words": [],
+          "region": "main",
+          "xpath": "//summary[normalize-space()='What is chargeback software?']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/offering/"
+        },
+        {
+          "kind": "expander",
+          "words": [],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'What features should banking dispute')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/integrations/"
+        },
+        {
+          "kind": "expander",
+          "words": [],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'How does dispute resolution software')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/integrations/"
+        },
+        {
+          "kind": "expander",
+          "words": [],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'What are the typical costs of')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/integrations/"
+        },
+        {
+          "kind": "expander",
+          "words": [],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'How long does it take to deploy dispute')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/integrations/"
+        },
+        {
+          "kind": "expander",
+          "words": [],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'What security and compliance')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/integrations/"
+        }
+      ],
+      "why": {
+        "rule": "family-by-evidence",
+        "says": "its 2 pages read look alike (layout 73% the same, headings 19%), and every page shows the heading \"Frequently Asked Questions\"; joined by: the layouts agree, with some headings shared (1 comparison)",
+        "joinedBy": [
+          {
+            "rule": "layout-and-some-headings",
+            "pairs": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "qfd-ai",
+      "name": "QfdAiPage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/qfd-ai/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "AI Dispute Resolution Platform | Quavo Fraud & Disputes",
+      "sharedHeadings": [
+        "Still paying the high cost of making it right? Meet Aria™",
+        "Introducing your team’s newest super analyst, Aria!",
+        "Analyze",
+        "Augment",
+        "Automate",
+        "QFD® AI – Investigation",
+        "How It Works",
+        "Benefits",
+        "QFD® AI – Inbound Correspondence",
+        "QFD® AI – Representments",
+        "Ready to get started? Talk to our team.",
+        "Frequently asked questions",
+        "Everything you need to know about the AI dispute resolution platform.",
+        "Solutions",
+        "Products",
+        "Resources",
+        "Company",
+        "Follow Us"
+      ],
+      "inMenu": true,
+      "linksTo": [],
+      "controls": [
+        {
+          "kind": "expander",
+          "words": [],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'What is an AI dispute resolution')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/qfd-ai/"
+        },
+        {
+          "kind": "expander",
+          "words": [],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'What are the main benefits of using an')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/qfd-ai/"
+        },
+        {
+          "kind": "expander",
+          "words": [],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'How secure and private are AI dispute')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/qfd-ai/"
+        }
+      ],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /offering/, shares 67% of its layout and 18% of its headings)"
+      }
+    },
+    {
+      "id": "case-studies",
+      "name": "CaseStudiesPage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/case-studies/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Case Studies Archive | Quavo Fraud & Disputes",
+      "sharedHeadings": [
+        "Case Studies",
+        "Altura Modernizes Dispute Operations, Empowering Member Satisfaction",
+        "All Case Studies",
+        "Veridian Credit Union Drives Efficiency and Member Approval with QFD® and DRE™",
+        "Ready to Transform Your Dispute Management Process?",
+        "Solutions",
+        "Products",
+        "Resources",
+        "Company",
+        "Follow Us"
+      ],
+      "inMenu": true,
+      "linksTo": [
+        {
+          "template": "case-study",
+          "count": 2,
+          "example": {
+            "from": "https://www.quavo.com/case-studies/",
+            "to": "https://www.quavo.com/case-study/rogue-credit-union/",
+            "href": "https://www.quavo.com/case-study/rogue-credit-union/",
+            "text": "Rogue Credit Union Partners with Quavo to Improve Member Satisfaction with Best…"
+          }
+        },
+        {
+          "template": "related-resources",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/case-studies/",
+            "to": "https://www.quavo.com/news/quavo-inc-secures-trademark-registration-for-fraud-management-technology-aria/",
+            "href": "https://www.quavo.com/news/quavo-inc-secures-trademark-registration-for-fraud-management-technology-aria/",
+            "text": "Automated Fraud Investigation Tool"
+          }
+        }
+      ],
+      "why": {
+        "rule": "layout-only",
+        "says": "laid out like /press-release-use-cases/credit-union/, /blog/, /videos/ and 6 more, but no title or heading says they are one kind of page, and their addresses share no part: each is its own"
+      }
+    },
+    {
+      "id": "quarterly-newsletter-q2",
+      "name": "QuarterlyNewsletterQ2Page",
+      "urlPatterns": [
+        "/quarterly-newsletter/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/quarterly-newsletter/q2-2025/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Quavo Quarterly - Q2 2025 | Quavo",
+      "sharedHeadings": [
+        "Executive Corner\u200b",
+        "QFD® Need-to-Knows",
+        "Tips and Best Practices",
+        "Attach More Than Just Documents",
+        "KPI Corner",
+        "Welcome to the Quavo Community!",
+        "Upcoming Events",
+        "Quavo in the News",
+        "Trust in Banking Infographic",
+        "From Conflict to Resolution: Navigating AI’s Role in Fraud Dispute Management",
+        "Humanity at Scale: AI’s Potential for Community-Based Financial Institutions",
+        "Four Ways Banks Can Turn Fraud Into a Loyalty Play",
+        "Dishing on Disputes",
+        "Coming Soon",
+        "The 2025 State of Dispute Management",
+        "Blogs",
+        "From Kickoff to Success: Why Communication & Consistency Matter MOst",
+        "Tech, Data, and Decision-Making: A Cautionary Tale from History",
+        "Why Context Changes the Meaning of Data",
+        "Look what happens when we fight fraud together:"
+      ],
+      "inMenu": false,
+      "linksTo": [
+        {
+          "template": "insight",
+          "count": 2,
+          "example": {
+            "from": "https://www.quavo.com/quarterly-newsletter/q2-2025/",
+            "to": "https://www.quavo.com/insight/infographic-trusts-role-in-customer-loyalty-for-financial-institutions/",
+            "href": "https://www.quavo.com/insight/infographic-trusts-role-in-customer-loyalty-for-financial-institutions/",
+            "text": "View Now"
+          }
+        },
+        {
+          "template": "related-resources",
+          "count": 2,
+          "example": {
+            "from": "https://www.quavo.com/quarterly-newsletter/q2-2025/",
+            "to": "https://www.quavo.com/news/quavo-fraud-disputes-named-best-dispute-management-resolution-solution-by-fintech-futures/",
+            "href": "https://www.quavo.com/news/quavo-fraud-disputes-named-best-dispute-management-resolution-solution-by-fintech-futures/",
+            "text": "Read the Full Press Release"
+          }
+        },
+        {
+          "template": "webinar",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/quarterly-newsletter/q2-2025/",
+            "to": "https://www.quavo.com/webinar/dishing-on-disputes-building-member-trust-through-dispute-operations/",
+            "href": "https://www.quavo.com/webinar/dishing-on-disputes-building-member-trust-through-dispute-operations/",
+            "text": "Watch the Latest Episode"
+          }
+        }
+      ],
+      "controls": [
+        {
+          "kind": "tab",
+          "words": [
+            "Meet the Cardholder Where They're At"
+          ],
+          "region": "main",
+          "xpath": "//div[div/div[normalize-space()='Reduce Bias and Lead with Empathy']]/div[1]/div[1]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/quarterly-newsletter/q2-2025/"
+        },
+        {
+          "kind": "tab",
+          "words": [
+            "Reduce Bias and Lead with Empathy"
+          ],
+          "region": "main",
+          "xpath": "//div[div/div[normalize-space()=\"Meet the Cardholder Where They're At\"]]/div[1]/div[2]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/quarterly-newsletter/q2-2025/"
+        },
+        {
+          "kind": "tab",
+          "words": [
+            "Keep the Cardholder in the Loop"
+          ],
+          "region": "main",
+          "xpath": "//div[div/div[normalize-space()=\"Meet the Cardholder Where They're At\"]]/div[1]/div[3]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/quarterly-newsletter/q2-2025/"
+        }
+      ],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /insight/infographic-trusts-role-in-customer-loyalty-for-financial-institutions/, shares 39% of its layout and 0% of its headings)"
+      }
+    },
+    {
+      "id": "blog",
+      "name": "BlogPage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/blog/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Blog | Quavo Fraud & Disputes",
+      "sharedHeadings": [
+        "Blog",
+        "7 Questions to Ask Before You Outsource Fraud and Disputes",
+        "In the AI Era, Trust Is Everything",
+        "Pause Match Predictions. Let’s Talk Dispute Predictions.",
+        "Why Most Financial Institutions Are Optimizing Dispute Management in the Dark",
+        "Ready to Transform Your Dispute Management Process?",
+        "Solutions",
+        "Products",
+        "Resources",
+        "Company",
+        "Follow Us"
+      ],
+      "inMenu": true,
+      "linksTo": [
+        {
+          "template": "related-resources",
+          "count": 3,
+          "example": {
+            "from": "https://www.quavo.com/blog/",
+            "to": "https://www.quavo.com/in-the-ai-era-trust-is-everything/",
+            "href": "https://www.quavo.com/in-the-ai-era-trust-is-everything/",
+            "text": "In the AI Era, Trust Is Everything"
+          }
+        }
+      ],
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "Load More"
+          ],
+          "region": "main",
+          "xpath": "//a[normalize-space()='Load More']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/blog/"
+        }
+      ],
+      "why": {
+        "rule": "layout-only",
+        "says": "laid out like /press-release-use-cases/credit-union/, /case-studies/, /videos/ and 6 more, but no title or heading says they are one kind of page, and their addresses share no part: each is its own"
+      }
+    },
+    {
+      "id": "videos",
+      "name": "VideosPage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/videos/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Videos Archive | Quavo",
+      "sharedHeadings": [
+        "Videos",
+        "Quavo AI | Demo",
+        "A Consumer’s Guide to Filing a Dispute",
+        "Ins & Outs of Provisional Credit | Regulation E",
+        "A Beginner’s Guide to Chargebacks",
+        "Claim Intake Powered by QFD®",
+        "Ready to Transform Your Dispute Management Process?",
+        "Solutions",
+        "Products",
+        "Resources",
+        "Company",
+        "Follow Us"
+      ],
+      "inMenu": true,
+      "linksTo": [
+        {
+          "template": "related-resources",
+          "count": 7,
+          "example": {
+            "from": "https://www.quavo.com/videos/",
+            "to": "https://www.quavo.com/video/a-consumers-guide-to-filing-a-dispute/",
+            "href": "https://www.quavo.com/video/a-consumers-guide-to-filing-a-dispute/",
+            "text": "A Consumer’s Guide to Filing a Dispute"
+          }
+        },
+        {
+          "template": "webinars",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/videos/",
+            "to": "https://www.quavo.com/webinars/",
+            "href": "https://www.quavo.com/webinars/",
+            "text": "Disputes Webinar Recordings"
+          }
+        }
+      ],
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "Load More"
+          ],
+          "region": "main",
+          "xpath": "//a[normalize-space()='Load More']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/videos/"
+        }
+      ],
+      "why": {
+        "rule": "layout-only",
+        "says": "laid out like /press-release-use-cases/credit-union/, /case-studies/, /blog/ and 6 more, but no title or heading says they are one kind of page, and their addresses share no part: each is its own"
+      }
+    },
+    {
+      "id": "insights",
+      "name": "InsightsPage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/insights/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Insights Archive | Quavo",
+      "sharedHeadings": [
+        "Unlocking Value Through Knowledge",
+        "The Last Mile of Real-Time Payments is Still Manual",
+        "Merchant Failures are Becoming a Stress Test for Banks",
+        "The Serial Filer Problem: What the Data Says and What to Do About It",
+        "The Hidden Cost of Compliance Debt in Fraud and Dispute Management",
+        "How AI Is Transforming Fraud and Dispute Management for Financial Institutions",
+        "Ready to Transform Your Dispute Management Process?",
+        "Solutions",
+        "Products",
+        "Resources",
+        "Company",
+        "Follow Us"
+      ],
+      "inMenu": true,
+      "linksTo": [
+        {
+          "template": "insight",
+          "count": 5,
+          "example": {
+            "from": "https://www.quavo.com/insights/",
+            "to": "https://www.quavo.com/insight/the-last-mile-of-real-time-payments-is-still-manual/",
+            "href": "https://www.quavo.com/insight/the-last-mile-of-real-time-payments-is-still-manual/",
+            "text": "The Last Mile of Real-Time Payments is Still Manual"
+          }
+        },
+        {
+          "template": "events-product-qfd",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/insights/",
+            "to": "https://www.quavo.com/events-product/qfd/",
+            "href": "https://www.quavo.com/events-product/qfd/",
+            "text": "Enhance Dispute Operations with AI"
+          }
+        }
+      ],
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "Load More"
+          ],
+          "region": "main",
+          "xpath": "//a[normalize-space()='Load More']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/insights/"
+        }
+      ],
+      "why": {
+        "rule": "layout-only",
+        "says": "laid out like /press-release-use-cases/credit-union/, /case-studies/, /blog/ and 6 more, but no title or heading says they are one kind of page, and their addresses share no part: each is its own"
+      }
+    },
+    {
+      "id": "events-product-qfd",
+      "name": "EventsProductQfdPage",
+      "urlPatterns": [
+        "/events-product/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/events-product/qfd/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "QFD Archives | Quavo",
+      "sharedHeadings": [
+        "Product: QFD",
+        "Auriemma Fraud Summit",
+        "Ready to Transform Your Dispute Management Process?",
+        "Solutions",
+        "Products",
+        "Resources",
+        "Company",
+        "Follow Us"
+      ],
+      "inMenu": false,
+      "linksTo": [
+        {
+          "template": "press-release-use-case",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/events-product/qfd/",
+            "to": "https://www.quavo.com/press-release-use-cases/fintech/",
+            "href": "https://www.quavo.com/press-release-use-cases/fintech/",
+            "text": "Use Case: Fintech"
+          }
+        },
+        {
+          "template": "event-auriemma-fraud-summit",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/events-product/qfd/",
+            "to": "https://www.quavo.com/event/auriemma-fraud-summit/",
+            "href": "https://www.quavo.com/event/auriemma-fraud-summit/",
+            "text": "Auriemma Fraud Summit"
+          }
+        },
+        {
+          "template": "whitepaper-use-cases-fintech",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/events-product/qfd/",
+            "to": "https://www.quavo.com/whitepaper-use-cases/fintech/",
+            "href": "https://www.quavo.com/whitepaper-use-cases/fintech/",
+            "text": "Fintech Dispute Management Insights"
+          }
+        }
+      ],
+      "why": {
+        "rule": "layout-only",
+        "says": "laid out like /press-release-use-cases/credit-union/, /case-studies/, /blog/ and 6 more, but no title or heading says they are one kind of page, and their addresses share no part: each is its own"
+      }
+    },
+    {
+      "id": "event-auriemma-fraud-summit",
+      "name": "EventAuriemmaFraudSummitPage",
+      "urlPatterns": [
+        "/event/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/event/auriemma-fraud-summit/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Auriemma Fraud Summit | Quavo Fraud & Disputes",
+      "sharedHeadings": [
+        "Quavo events",
+        "Auriemma Fraud Summit",
+        "October 27-28, 2026",
+        "Memphis, TN",
+        "When",
+        "Location",
+        "Time",
+        "Attendees",
+        "Steve Durney, VP, Partnerships & Alliances",
+        "Dave Chmielewski, CPO & Co-Founder",
+        "Solutions",
+        "Products",
+        "Resources",
+        "Company",
+        "Follow Us"
+      ],
+      "inMenu": false,
+      "linksTo": [],
+      "why": {
+        "rule": "layout-only",
+        "says": "laid out like /terms-and-conditions/, /download/case-study-sofi-tech-simplifies-dispute-management-at-scale/, /webinar/dishing-on-disputes-building-member-trust-through-dispute-operations/ and 9 more, but no title or heading says they are one kind of page, and their addresses share no part: each is its own"
+      }
+    },
+    {
+      "id": "whitepaper-use-cases-fintech",
+      "name": "WhitepaperUseCasesFintechPage",
+      "urlPatterns": [
+        "/whitepaper-use-cases/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/whitepaper-use-cases/fintech/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Fintech Archives | Quavo",
+      "sharedHeadings": [
+        "Use Case: Fintech",
+        "The Last Mile of Real-Time Payments is Still Manual",
+        "The Serial Filer Problem: What the Data Says and What to Do About It",
+        "The Fraud AI Stack Is Scaling Faster Than You Are",
+        "Fuel Fraud Is Accelerating and So Is the Cost of Every Dispute",
+        "Ready to Transform Your Dispute Management Process?",
+        "Solutions",
+        "Products",
+        "Resources",
+        "Company",
+        "Follow Us"
+      ],
+      "inMenu": false,
+      "linksTo": [
+        {
+          "template": "insight",
+          "count": 5,
+          "example": {
+            "from": "https://www.quavo.com/whitepaper-use-cases/fintech/",
+            "to": "https://www.quavo.com/insight/the-last-mile-of-real-time-payments-is-still-manual/",
+            "href": "https://www.quavo.com/insight/the-last-mile-of-real-time-payments-is-still-manual/",
+            "text": "The Last Mile of Real-Time Payments is Still Manual"
+          }
+        },
+        {
+          "template": "press-release-use-case",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/whitepaper-use-cases/fintech/",
+            "to": "https://www.quavo.com/press-release-use-cases/fintech/",
+            "href": "https://www.quavo.com/press-release-use-cases/fintech/",
+            "text": "Use Case: Fintech"
+          }
+        },
+        {
+          "template": "events-product-qfd",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/whitepaper-use-cases/fintech/",
+            "to": "https://www.quavo.com/events-product/qfd/",
+            "href": "https://www.quavo.com/events-product/qfd/",
+            "text": "Enhance Dispute Operations with AI"
+          }
+        }
+      ],
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "Load More"
+          ],
+          "region": "main",
+          "xpath": "//a[normalize-space()='Load More']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/whitepaper-use-cases/fintech/"
+        }
+      ],
+      "why": {
+        "rule": "layout-only",
+        "says": "laid out like /press-release-use-cases/credit-union/, /case-studies/, /blog/ and 6 more, but no title or heading says they are one kind of page, and their addresses share no part: each is its own"
+      }
+    },
+    {
+      "id": "downloads",
+      "name": "DownloadsPage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/downloads/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Downloads Archive | Quavo",
+      "sharedHeadings": [
+        "Fraud and Dispute Management Expertise at Your Fingertips",
+        "How Fraud and Scam Resolution Shapes Trust, Loyalty, and Customer Value in 2026",
+        "The 2026 State of Dispute Management",
+        "Fraud Resolution Done Right",
+        "The Cost of Making It Right",
+        "Case Study: Sofi Tech Solutions Simplifies Dispute Management at Scale",
+        "Fraud Resolution Reimagined: A Blueprint for Trust in Banking",
+        "The Fraud Experience: A Key Banking Relationship Differentiator",
+        "The 2025 State of Dispute Management",
+        "The Trust Factor: Turning Fraud Challenges into Customer Loyalty Opportunities",
+        "Ready to Transform Your Dispute Management Process?",
+        "Solutions",
+        "Products",
+        "Resources",
+        "Company",
+        "Follow Us"
+      ],
+      "inMenu": true,
+      "linksTo": [
+        {
+          "template": "download",
+          "count": 4,
+          "example": {
+            "from": "https://www.quavo.com/downloads/",
+            "to": "https://www.quavo.com/download/how-fraud-and-scam-resolution-shapes-trust-loyalty-and-customer-value-in-2026/",
+            "href": "https://www.quavo.com/download/how-fraud-and-scam-resolution-shapes-trust-loyalty-and-customer-value-in-2026/",
+            "text": "Download"
+          }
+        },
+        {
+          "template": "press-release-use-case",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/downloads/",
+            "to": "https://www.quavo.com/press-release-use-cases/credit-union/",
+            "href": "https://www.quavo.com/press-release-use-cases/credit-union/",
+            "text": "Use Case: Credit Union"
+          }
+        }
+      ],
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "Load More"
+          ],
+          "region": "main",
+          "xpath": "//a[normalize-space()='Load More']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/downloads/"
+        }
+      ],
+      "why": {
+        "rule": "layout-only",
+        "says": "laid out like /press-release-use-cases/credit-union/, /case-studies/, /blog/ and 6 more, but no title or heading says they are one kind of page, and their addresses share no part: each is its own"
+      }
+    },
+    {
+      "id": "webinars",
+      "name": "WebinarsPage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/webinars/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Webinars Archive | Quavo",
+      "sharedHeadings": [
+        "Webinars",
+        "Dishing On Disputes: Lessons from Building First-Party Fraud Automation",
+        "Dishing On Disputes: What Happens When the Call Comes from Inside the House?",
+        "Dishing On Disputes: 5 Reporting Metrics Every Dispute Leader Should Track",
+        "Dishing On Disputes: Building Member Trust Through Dispute Operations",
+        "Dishing On Disputes: Leveling Up Dispute Operations with AI",
+        "Solutions",
+        "Products",
+        "Resources",
+        "Company",
+        "Follow Us"
+      ],
+      "inMenu": true,
+      "linksTo": [
+        {
+          "template": "webinar",
+          "count": 4,
+          "example": {
+            "from": "https://www.quavo.com/webinars/",
+            "to": "https://www.quavo.com/webinar/dishing-on-disputes-from-manual-to-modern-a-roadmap-for-dispute-transformation/",
+            "href": "https://www.quavo.com/webinar/dishing-on-disputes-from-manual-to-modern-a-roadmap-for-dispute-transformation/",
+            "text": "Dishing On Disputes – From Manual to Modern: A Roadmap for Dispute Transformati…"
+          }
+        }
+      ],
+      "why": {
+        "rule": "layout-only",
+        "says": "laid out like /press-release-use-cases/credit-union/, /case-studies/, /blog/ and 6 more, but no title or heading says they are one kind of page, and their addresses share no part: each is its own"
+      }
+    },
+    {
+      "id": "quavo-labs",
+      "name": "QuavoLabsPage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/quavo-labs/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Quavo Labs | Quavo",
+      "sharedHeadings": [
+        "The Industry's Hidden Patterns. Now Measurable and Actionable.",
+        "Why Social Shopping Disputes Take Twice as Long to Resolve",
+        "Ron Rybicki",
+        "The Streaming Chargeback Is Getting Harder to Win",
+        "The Serial Filer Problem: What the Data Says and What to Do About It",
+        "The Fraud AI Stack Is Scaling Faster Than You Are",
+        "Fuel Fraud Is Accelerating and So Is the Cost of Every Dispute",
+        "BY THE NUMBERS",
+        "One institution sees transactions. We see trends.",
+        "Disputes processed annually",
+        "Supported brands and issuers",
+        "Network growth year-over-year",
+        "Explore more resources.",
+        "See if the same signals are showing up for you.",
+        "Solutions",
+        "Products",
+        "Resources",
+        "Company",
+        "Follow Us"
+      ],
+      "inMenu": true,
+      "linksTo": [
+        {
+          "template": "quavo-lab",
+          "count": 3,
+          "example": {
+            "from": "https://www.quavo.com/quavo-labs/",
+            "to": "https://www.quavo.com/quavo-labs/the-streaming-chargeback-is-getting-harder-to-win/",
+            "href": "https://www.quavo.com/quavo-labs/the-streaming-chargeback-is-getting-harder-to-win/",
+            "text": "Click here",
+            "hidden": true
+          }
+        }
+      ],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /whitepaper-use-cases/fintech/, shares 51% of its layout and 36% of its headings)"
+      }
+    },
+    {
+      "id": "about",
+      "name": "AboutPage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/about/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Automated Dispute Management for Issuing FIs | Quavo Fraud & Disputes",
+      "sharedHeadings": [
+        "Get Experience on Your Side",
+        "A fintech founded by bankers, for bankers.",
+        "Quavo's Fintech Vision",
+        "Building Trust-Driven Financial Solutions",
+        "Now It Pays to Make It Right",
+        "Trusted By",
+        "AI-Powered Dispute Management That Covers the U.S.",
+        "Client HQs",
+        "Client Coverage Area",
+        "Vision.",
+        "Core Values.",
+        "Pledge.",
+        "THE QUAVO TEAM",
+        "Joseph McLean",
+        "David Chmielewski",
+        "Daniel Penne",
+        "Rebecca Bradley",
+        "Michael Macari",
+        "Dave Oldershaw",
+        "Richard Jefferson",
+        "We Are Quavo. We help you make it right.",
+        "Join the team",
+        "Solutions",
+        "Products",
+        "Resources",
+        "Company",
+        "Follow Us"
+      ],
+      "inMenu": true,
+      "linksTo": [],
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "Play Video"
+          ],
+          "region": "main",
+          "xpath": "//div[@aria-label='Play Video']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/about/"
+        }
+      ],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /newsroom/, shares 56% of its layout and 15% of its headings)"
+      }
+    },
+    {
+      "id": "newsroom",
+      "name": "NewsroomPage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/newsroom/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "News, Press Releases, and Events | Quavo Fraud & Disputes",
+      "sharedHeadings": [
+        "Newsroom",
+        "News",
+        "Upcoming Events and Webinars",
+        "Auriemma Fraud Summit",
+        "Press Contact",
+        "Julia Brady",
+        "Solutions",
+        "Products",
+        "Resources",
+        "Company",
+        "Follow Us"
+      ],
+      "inMenu": true,
+      "linksTo": [
+        {
+          "template": "related-resources",
+          "count": 4,
+          "example": {
+            "from": "https://www.quavo.com/newsroom/",
+            "to": "https://www.quavo.com/news/subscription-chargeback-win-rates-quavo-labs/",
+            "href": "https://www.quavo.com/news/subscription-chargeback-win-rates-quavo-labs/",
+            "text": "Issuers are Losing More Digital Subscription Chargebacks as Win Rates Fell 35 P…"
+          }
+        },
+        {
+          "template": "quarterly-newsletter-q2",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/newsroom/",
+            "to": "https://www.quavo.com/quarterly-newsletter/q2-2025/",
+            "href": "https://www.quavo.com/quarterly-newsletter/q2-2025/",
+            "text": "Credit Card Dispute and Fraud Management"
+          }
+        },
+        {
+          "template": "event-auriemma-fraud-summit",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/newsroom/",
+            "to": "https://www.quavo.com/event/auriemma-fraud-summit/",
+            "href": "https://www.quavo.com/event/auriemma-fraud-summit/",
+            "text": "Auriemma Fraud Summit"
+          }
+        }
+      ],
+      "why": {
+        "rule": "layout-only",
+        "says": "laid out like /resources/, but no title or heading says they are one kind of page, and their addresses share no part: each is its own"
+      }
+    },
+    {
+      "id": "careers",
+      "name": "CareersPage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/careers/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "FinTech Careers | Quavo Fraud & Disputes",
+      "sharedHeadings": [
+        "Careers @ quavo",
+        "Join the Team",
+        "Transforming Dispute Management",
+        "Quavo’s Fintech Vision",
+        "One Quavo, Nationwide Impact",
+        "Life at Quavo",
+        "Perks",
+        "Flexible Work Options:",
+        "Competitive Compensation:",
+        "Unlimited Paid Time Off (PTO):",
+        "Comprehensive Benefits Package:",
+        "Culture Rooted in Core Values:",
+        "Camp Quavo:",
+        "Employee Insights",
+        "Chris Yukubousky",
+        "Devon Anderson",
+        "Aafie Somers",
+        "Nicole Labno",
+        "Matt Libiran",
+        "Open Positions",
+        "Solutions",
+        "Products",
+        "Resources",
+        "Company",
+        "Follow Us"
+      ],
+      "inMenu": true,
+      "linksTo": [
+        {
+          "template": "insight",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/careers/",
+            "to": "https://www.quavo.com/insight/a-friendly-introduction-to-regulation-z/",
+            "href": "https://www.quavo.com/insight/a-friendly-introduction-to-regulation-z/",
+            "text": "Understanding Regulation Z in Credit Disputes"
+          }
+        }
+      ],
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "Go to slide 1"
+          ],
+          "region": "main",
+          "xpath": "//span[@aria-label='Go to slide 1']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/careers/"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Go to slide 2"
+          ],
+          "region": "main",
+          "xpath": "//span[@aria-label='Go to slide 2']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/careers/"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Go to slide 3"
+          ],
+          "region": "main",
+          "xpath": "//span[@aria-label='Go to slide 3']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/careers/"
+        }
+      ],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /about/, shares 56% of its layout and 13% of its headings)"
+      }
+    },
+    {
+      "id": "partners",
+      "name": "PartnersPage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/partners/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Fintech Partnership Program | Quavo",
+      "sharedHeadings": [
+        "Partner with Quavo and Unlock New Growth Opportunities in Fintech",
+        "Types of Partners",
+        "Referral Partners",
+        "Partnership Benefits",
+        "Enhanced Offerings",
+        "Increased Revenue",
+        "Market Expansion",
+        "Innovation",
+        "Brand Recognition",
+        "Dedicated Support",
+        "Memberships",
+        "Frequently asked questions",
+        "Everything you need to know about Quavo's fintech partnership program.",
+        "Solutions",
+        "Products",
+        "Resources",
+        "Company",
+        "Follow Us"
+      ],
+      "inMenu": true,
+      "linksTo": [
+        {
+          "template": "related-resources",
+          "count": 1,
+          "example": {
+            "from": "https://www.quavo.com/partners/",
+            "to": "https://www.quavo.com/news/quavo-fraud-disputes-secures-300-million-growth-investment-from-spectrum-equity/",
+            "href": "https://www.quavo.com/news/quavo-fraud-disputes-secures-300-million-growth-investment-from-spectrum-equity/",
+            "text": "Growth Investment News in Finance Firm"
+          }
+        }
+      ],
+      "controls": [
+        {
+          "kind": "tab",
+          "words": [
+            "Referral Partners"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Referral Partners']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/partners/"
+        },
+        {
+          "kind": "tab",
+          "words": [
+            "Technology Partners"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Technology Partners']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/partners/"
+        },
+        {
+          "kind": "tab",
+          "words": [
+            "Thought Leadership Partners"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Thought Leadership Partners']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/partners/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "What is a FinTech partnership?"
+          ],
+          "region": "main",
+          "xpath": "//summary[normalize-space()='What is a FinTech partnership?']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/partners/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "What types of partners are you looking for?"
+          ],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'What types of partners are you looking')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/partners/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "What is an example of a FinTech partnership?"
+          ],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'What is an example of a FinTech')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/partners/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "Who is a good fit for Quavo's partner program?"
+          ],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),\"Who is a good fit for Quavo's partner\")]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/partners/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "What benefits do partners receive?"
+          ],
+          "region": "main",
+          "xpath": "//summary[normalize-space()='What benefits do partners receive?']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/partners/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "Do you offer commissions, referral fees, or revenue sharing?"
+          ],
+          "region": "main",
+          "xpath": "//summary[starts-with(normalize-space(),'Do you offer commissions, referral fees,')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.quavo.com/partners/"
+        }
+      ],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /integrations/, shares 67% of its layout and 21% of its headings)"
+      }
+    },
+    {
+      "id": "contact-us",
+      "name": "ContactUsPage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/contact-us/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Contact Us | Quavo Fraud & Disputes",
+      "sharedHeadings": [
+        "Talk to a Dispute Management Expert",
+        "Solutions",
+        "Products",
+        "Resources",
+        "Company",
+        "Follow Us"
+      ],
+      "inMenu": true,
+      "linksTo": [],
+      "why": {
+        "rule": "layout-only",
+        "says": "laid out like /terms-and-conditions/, /download/case-study-sofi-tech-simplifies-dispute-management-at-scale/, /webinar/dishing-on-disputes-building-member-trust-through-dispute-operations/ and 9 more, but no title or heading says they are one kind of page, and their addresses share no part: each is its own"
+      }
+    },
+    {
+      "id": "privacy-policy",
+      "name": "PrivacyPolicyPage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://www.quavo.com/privacy-policy/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Privacy Policy | Quavo Fraud & Disputes",
+      "sharedHeadings": [
+        "Privacy Policy",
+        "Privacy Notice",
+        "Solutions",
+        "Products",
+        "Resources",
+        "Company",
+        "Follow Us"
+      ],
+      "inMenu": true,
+      "linksTo": [],
+      "why": {
+        "rule": "layout-only",
+        "says": "laid out like /terms-and-conditions/, /download/case-study-sofi-tech-simplifies-dispute-management-at-scale/, /webinar/dishing-on-disputes-building-member-trust-through-dispute-operations/ and 9 more, but no title or heading says they are one kind of page, and their addresses share no part: each is its own"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "url": "https://www.quavo.com/resource/dispute-resolution-platform/",
+      "reason": "duplicate of https://www.quavo.com/"
+    },
+    {
+      "url": "https://www.quavo.com/resource/data-analytics-and-reporting/",
+      "reason": "duplicate of https://www.quavo.com/"
+    },
+    {
+      "url": "https://www.quavo.com/resource/efficient-case-management/",
+      "reason": "duplicate of https://www.quavo.com/"
+    },
+    {
+      "url": "https://www.quavo.com/sponsor-bank/",
+      "reason": "answered 502 (a broken link)"
+    },
+    {
+      "url": "https://www.quavo.com/customer-experience/",
+      "reason": "answered 502 (a broken link)"
+    },
+    {
+      "url": "https://www.quavo.com/resource/compliance-made-easy/",
+      "reason": "duplicate of https://www.quavo.com/"
+    },
+    {
+      "url": "https://www.quavo.com/chargeback-solutions/automated-dispute-management-software/",
+      "reason": "duplicate of https://www.quavo.com/qfd/"
+    },
+    {
+      "url": "https://www.quavo.com/chargeback-solutions/ai-fraud-resolution-aria/",
+      "reason": "duplicate of https://www.quavo.com/qfd-ai/"
+    },
+    {
+      "url": "https://www.quavo.com/event/money-20-20-2026/",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.quavo.com/chargeback-solutions/ai-dispute-resolution-aria/",
+      "reason": "duplicate of https://www.quavo.com/qfd-ai/"
+    },
+    {
+      "url": "https://www.quavo.com/about-us/leadership-team/",
+      "reason": "duplicate of https://www.quavo.com/about/"
+    },
+    {
+      "url": "https://www.quavo.com/dispute-management-resources/knowledge-center/",
+      "reason": "duplicate of https://www.quavo.com/resources/"
+    },
+    {
+      "url": "https://www.quavo.com/solutions-for-issuers/",
+      "reason": "duplicate of https://www.quavo.com/issuing-banks/"
+    },
+    {
+      "url": "https://www.quavo.com/products-and-services/",
+      "reason": "duplicate of https://www.quavo.com/qfd/"
+    },
+    {
+      "url": "https://www.quavo.com/resource/regulatory-compliance-module/",
+      "reason": "duplicate of https://www.quavo.com/"
+    },
+    {
+      "url": "https://www.quavo.com/cfpbs-impact-on-fraud-disputes/",
+      "reason": "answered 404 (a broken link)"
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (compatible; SuiteBuilder/1.0; +https://github.com/Ghost-in-the-Kernel-Labs/Ghost-in-the-Kernel-Labs-suite-builder-docs)",
+  "brokenLinks": [
+    {
+      "url": "https://www.quavo.com/sponsor-bank/",
+      "status": 502,
+      "linkedFrom": [
+        "https://www.quavo.com/",
+        "https://www.quavo.com/terms-and-conditions/",
+        "https://www.quavo.com/resources/",
+        "https://www.quavo.com/issuing-banks/",
+        "https://www.quavo.com/credit-unions/"
+      ]
+    },
+    {
+      "url": "https://www.quavo.com/customer-experience/",
+      "status": 502,
+      "linkedFrom": [
+        "https://www.quavo.com/",
+        "https://www.quavo.com/terms-and-conditions/",
+        "https://www.quavo.com/resources/",
+        "https://www.quavo.com/issuing-banks/",
+        "https://www.quavo.com/credit-unions/"
+      ]
+    },
+    {
+      "url": "https://www.quavo.com/event/money-20-20-2026/",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.quavo.com/news/quavo-names-2026-trust-in-banking-award-winners-recognizing-dispute-resolution-excellence/"
+      ]
+    },
+    {
+      "url": "https://www.quavo.com/insight/how-fraud-and-disputes-affect-cfpb-complaints/",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.quavo.com/origins-of-the-cfpb/",
+        "https://www.quavo.com/cfpb-under-biden-administration/"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "code": "SITE-02",
+      "severity": "major",
+      "title": "4 broken links: the site links to addresses that answer an error",
+      "where": [
+        {
+          "url": "https://www.quavo.com/sponsor-bank/",
+          "says": "answered 502; linked from /, /terms-and-conditions/, /resources/, /issuing-banks/, /credit-unions/ and 102 more",
+          "link": {
+            "paths": [
+              "/sponsor-bank/"
+            ],
+            "status": 502,
+            "answer": "answered 502",
+            "from": [
+              "/",
+              "/terms-and-conditions/",
+              "/resources/",
+              "/issuing-banks/",
+              "/credit-unions/"
+            ],
+            "more": 102,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.quavo.com/customer-experience/",
+          "says": "answered 502; linked from /, /terms-and-conditions/, /resources/, /issuing-banks/, /credit-unions/ and 102 more",
+          "link": {
+            "paths": [
+              "/customer-experience/"
+            ],
+            "status": 502,
+            "answer": "answered 502",
+            "from": [
+              "/",
+              "/terms-and-conditions/",
+              "/resources/",
+              "/issuing-banks/",
+              "/credit-unions/"
+            ],
+            "more": 102,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.quavo.com/event/money-20-20-2026/",
+          "says": "answered 404; linked from /news/quavo-names-2026-trust-in-banking-award-winners-recognizing-dispute-resolution-excellence/",
+          "link": {
+            "paths": [
+              "/event/money-20-20-2026/"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/news/quavo-names-2026-trust-in-banking-award-winners-recognizing-dispute-resolution-excellence/"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.quavo.com/insight/how-fraud-and-disputes-affect-cfpb-complaints/",
+          "says": "answered 404; linked from /origins-of-the-cfpb/, /cfpb-under-biden-administration/",
+          "link": {
+            "paths": [
+              "/insight/how-fraud-and-disputes-affect-cfpb-complaints/",
+              "/cfpbs-impact-on-fraud-disputes/"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/origins-of-the-cfpb/",
+              "/cfpb-under-biden-administration/"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        }
+      ],
+      "why": "A visitor who follows one of these links reaches an error instead of the page promised.",
+      "fix": "Point each link at a page that exists, or bring the page back (or redirect its old address to where it went)."
+    },
+    {
+      "code": "SITE-33",
+      "severity": "major",
+      "title": "1 link to another site leads nowhere: the page is gone",
+      "where": [
+        {
+          "url": "https://midigator.com/the-year-in-chargebacks-report-2019/",
+          "says": "answered 404; linked from /insight/investigating-fraud-claims-using-quavos-fraud-management-ai/",
+          "link": {
+            "paths": [],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/insight/investigating-fraud-claims-using-quavos-fraud-management-ai/"
+            ],
+            "more": 0,
+            "why": "broken"
+          },
+          "offSite": true
+        }
+      ],
+      "why": "Sites move and close: a visitor who follows one of these links meets an error page, or nothing at all, on someone else's site, and leaves thinking less of this one.",
+      "fix": "Point each link at where the page lives now, or take it out. The suite's link report asks every one again on each run, and fails when one that answered stops."
+    },
+    {
+      "code": "SITE-07",
+      "severity": "major",
+      "title": "265 links and buttons on 101 pages have nothing for a screen reader to say",
+      "where": [
+        {
+          "url": "https://www.quavo.com/",
+          "says": "13 links and buttons: `<a href=\"https://www.quavo.com/?page_id=5144\">`, `<a href=\"https://www.quavo.com/qfd-ai/\">`, `<a href=\"https://www.quavo.com/issuing-banks/\">`, `<a href=\"https://www.quavo.com/credit-unions/\">`, `<a href=\"https://www.quavo.com/offering/\">` and 8 more"
+        },
+        {
+          "url": "https://www.quavo.com/terms-and-conditions/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/resources/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/issuing-banks/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/credit-unions/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/fintech/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/insight/loyaltys-bottom-line-balancing-customer-acquisition-retention-and-fraud-resolution-costs/",
+          "says": "6 links and buttons: `<a href=\"#\">`, `<a href=\"https://www.quavo.com/insight/the-last-mile-of-rea…`, `<a href=\"https://www.quavo.com/insight/fraud-and-scam-resol…`, `<a href=\"https://www.quavo.com/insight/when-better-disputes…`, `<a href=\"https://www.quavo.com/insight/merchant-failures-ar…` and 1 more"
+        },
+        {
+          "url": "https://www.quavo.com/download/case-study-sofi-tech-simplifies-dispute-management-at-scale/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/case-study/altura-modernizes-dispute-operations-empowering-member-satisfaction/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/insight/modernizing-fraud-disputes-with-four-proven-strategies/",
+          "says": "6 links and buttons: `<a href=\"#\">`, `<a href=\"https://www.quavo.com/insight/the-last-mile-of-rea…`, `<a href=\"https://www.quavo.com/insight/fraud-and-scam-resol…`, `<a href=\"https://www.quavo.com/insight/when-better-disputes…`, `<a href=\"https://www.quavo.com/insight/merchant-failures-ar…` and 1 more"
+        },
+        {
+          "url": "https://www.quavo.com/webinar/dishing-on-disputes-building-member-trust-through-dispute-operations/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/video/build-vs-buy-dispute-management-solution/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/insight/fraud-and-scam-resolution-leadership-alignment/",
+          "says": "6 links and buttons: `<a href=\"#\">`, `<a href=\"https://www.quavo.com/insight/the-last-mile-of-rea…`, `<a href=\"https://www.quavo.com/insight/fraud-and-scam-resol…`, `<a href=\"https://www.quavo.com/insight/when-better-disputes…`, `<a href=\"https://www.quavo.com/insight/merchant-failures-ar…` and 1 more"
+        },
+        {
+          "url": "https://www.quavo.com/download/turning-fraud-challenges-into-customer-loyalty-opportunities/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/case-study/rogue-credit-union/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/webinar/dishing-on-disputes-what-happens-when-the-call-comes-from-inside-the-house/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/video/ins-outs-of-provisional-credit-regulation-e/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/download/how-fraud-and-scam-resolution-shapes-trust-loyalty-and-customer-value-in-2026/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/webinar/dishing-on-disputes-from-manual-to-modern-a-roadmap-for-dispute-transformation/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/case-study/first-hawaiian-bank/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/video/a-consumers-guide-to-filing-a-dispute/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/news/quavo-publishes-consumer-research/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/news/quavo-releases-second-annual-trust-in-banking-study/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/news/subscription-chargeback-win-rates-quavo-labs/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/press-release-use-cases/credit-union/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/quavo-labs/the-streaming-chargeback-is-getting-harder-to-win/",
+          "says": "2 links and buttons: `<a href=\"/quavo-labs\">`, `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/processors/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/losses/",
+          "says": "3 links and buttons: `<a href=\"#trust\">`, `<a href=\"https://www.quavo.com/contact-us/\">`, `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/operational-efficiency/",
+          "says": "3 links and buttons: `<a href=\"#trust\">`, `<a href=\"https://www.quavo.com/contact-us/\">`, `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/compliance/",
+          "says": "2 links and buttons: `<a href=\"https://www.quavo.com/contact-us/\">`, `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/insight/the-ins-and-outs-of-provisional-credits/",
+          "says": "6 links and buttons: `<a href=\"#\">`, `<a href=\"https://www.quavo.com/insight/the-last-mile-of-rea…`, `<a href=\"https://www.quavo.com/insight/fraud-and-scam-resol…`, `<a href=\"https://www.quavo.com/insight/when-better-disputes…`, `<a href=\"https://www.quavo.com/insight/merchant-failures-ar…` and 1 more"
+        },
+        {
+          "url": "https://www.quavo.com/qfd/",
+          "says": "4 links and buttons: `<button class=\"qfd-tab-btn\">` and 3 more"
+        },
+        {
+          "url": "https://www.quavo.com/insight/the-last-mile-of-real-time-payments-is-still-manual/",
+          "says": "6 links and buttons: `<a href=\"#\">`, `<a href=\"https://www.quavo.com/insight/the-last-mile-of-rea…`, `<a href=\"https://www.quavo.com/insight/fraud-and-scam-resol…`, `<a href=\"https://www.quavo.com/insight/when-better-disputes…`, `<a href=\"https://www.quavo.com/insight/merchant-failures-ar…` and 1 more"
+        },
+        {
+          "url": "https://www.quavo.com/dre/",
+          "says": "4 links and buttons: `<button class=\"qfd-tab-btn\">` and 3 more"
+        },
+        {
+          "url": "https://www.quavo.com/news/quavo-elevates-executive-leadership-with-appointment-of-david-oldershaw-as-coo-and-tony-digiorgio-as-cto/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/offering/",
+          "says": "13 links and buttons: `<button id=\"e-n-tab-title-416222501\">`, `<button id=\"e-n-tab-title-416222502\">`, `<button id=\"e-n-tab-title-416222503\">`, `<button id=\"e-n-tab-title-416222504\">`, `<button id=\"e-n-tab-title-416222505\">` and 8 more"
+        },
+        {
+          "url": "https://www.quavo.com/news/quavo-fraud-disputes-earns-soc-1-report-demonstrating-commitment-to-financial-institution-controls/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/insight/issuers-acquirers-understanding-key-players-in-dispute-resolution/",
+          "says": "6 links and buttons: `<a href=\"#\">`, `<a href=\"https://www.quavo.com/insight/the-last-mile-of-rea…`, `<a href=\"https://www.quavo.com/insight/fraud-and-scam-resol…`, `<a href=\"https://www.quavo.com/insight/when-better-disputes…`, `<a href=\"https://www.quavo.com/insight/merchant-failures-ar…` and 1 more"
+        },
+        {
+          "url": "https://www.quavo.com/qfd-ai/",
+          "says": "2 links and buttons: `<a href=\"https://www.quavo.com/contact-us/\">`, `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/integrations/",
+          "says": "2 links and buttons: `<a href=\"https://www.quavo.com/contact-us/\">`, `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/insight/banking-on-trust-turning-fraud-resolution-into-a-business-win/",
+          "says": "6 links and buttons: `<a href=\"#\">`, `<a href=\"https://www.quavo.com/insight/the-last-mile-of-rea…`, `<a href=\"https://www.quavo.com/insight/fraud-and-scam-resol…`, `<a href=\"https://www.quavo.com/insight/when-better-disputes…`, `<a href=\"https://www.quavo.com/insight/merchant-failures-ar…` and 1 more"
+        },
+        {
+          "url": "https://www.quavo.com/case-studies/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/news/quavo-fraud-disputes-secures-300-million-growth-investment-from-spectrum-equity/",
+          "says": "10 links and buttons: `<a href=\"/blog/\">`, `<a href=\"https://www.quavo.com/news/subscription-chargeback…`, `<a href=\"https://www.quavo.com/news/quavo-releases-second-a…`, `<a href=\"https://www.quavo.com/news/quavo-fraud-disputes-ea…`, `<a href=\"https://www.quavo.com/news/quavo-fraud-disputes-re…` and 5 more"
+        },
+        {
+          "url": "https://www.quavo.com/quarterly-newsletter/q2-2025/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/blog/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/videos/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/news/quavo-named-winner-of-the-2026-creditunions-com-innovation-series-fraud-prevention-and-resolution-category/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/insights/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/events-product/qfd/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/press-release-use-cases/fintech/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/event/auriemma-fraud-summit/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/whitepaper-use-cases/fintech/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/insight/merchant-failure-chargeback-surge-dispute-operations/",
+          "says": "6 links and buttons: `<a href=\"#\">`, `<a href=\"https://www.quavo.com/insight/the-last-mile-of-rea…`, `<a href=\"https://www.quavo.com/insight/fraud-and-scam-resol…`, `<a href=\"https://www.quavo.com/insight/when-better-disputes…`, `<a href=\"https://www.quavo.com/insight/merchant-failures-ar…` and 1 more"
+        },
+        {
+          "url": "https://www.quavo.com/insight/when-better-disputes-lower-your-costs-how-credit-unions-can-make-it-right-faster/",
+          "says": "6 links and buttons: `<a href=\"#\">`, `<a href=\"https://www.quavo.com/insight/the-last-mile-of-rea…`, `<a href=\"https://www.quavo.com/insight/fraud-and-scam-resol…`, `<a href=\"https://www.quavo.com/insight/when-better-disputes…`, `<a href=\"https://www.quavo.com/insight/merchant-failures-ar…` and 1 more"
+        },
+        {
+          "url": "https://www.quavo.com/insight/infographic-trusts-role-in-customer-loyalty-for-financial-institutions/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/insight/fraud-dispute-resolution-a-defining-cx-moment/",
+          "says": "6 links and buttons: `<a href=\"#\">`, `<a href=\"https://www.quavo.com/insight/the-last-mile-of-rea…`, `<a href=\"https://www.quavo.com/insight/fraud-and-scam-resol…`, `<a href=\"https://www.quavo.com/insight/when-better-disputes…`, `<a href=\"https://www.quavo.com/insight/merchant-failures-ar…` and 1 more"
+        },
+        {
+          "url": "https://www.quavo.com/downloads/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/video/claim-intake-powered-by-qfd/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/news/quavo-fraud-disputes-named-best-dispute-management-resolution-solution-by-fintech-futures/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/webinars/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/insight/how-ai-is-transforming-fraud-and-dispute-management-for-financial-institutions/",
+          "says": "6 links and buttons: `<a href=\"#\">`, `<a href=\"https://www.quavo.com/insight/the-last-mile-of-rea…`, `<a href=\"https://www.quavo.com/insight/fraud-and-scam-resol…`, `<a href=\"https://www.quavo.com/insight/when-better-disputes…`, `<a href=\"https://www.quavo.com/insight/merchant-failures-ar…` and 1 more"
+        },
+        {
+          "url": "https://www.quavo.com/quavo-labs/the-fraud-ai-stack-is-scaling-faster-than-you-are/",
+          "says": "2 links and buttons: `<a href=\"/quavo-labs\">`, `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/quavo-labs/the-serial-filer-problem-what-the-data-says-and-what-to-do-about-it/",
+          "says": "2 links and buttons: `<a href=\"/quavo-labs\">`, `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/insight/dispute-resolution-speed-reducing-costs/",
+          "says": "6 links and buttons: `<a href=\"#\">`, `<a href=\"https://www.quavo.com/insight/the-last-mile-of-rea…`, `<a href=\"https://www.quavo.com/insight/fraud-and-scam-resol…`, `<a href=\"https://www.quavo.com/insight/when-better-disputes…`, `<a href=\"https://www.quavo.com/insight/merchant-failures-ar…` and 1 more"
+        },
+        {
+          "url": "https://www.quavo.com/download/the-2026-state-of-dispute-management/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/news/pegasystems-announces-first-six-companies-funded-by-pega-service-ventures-to-empower-customer-success/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/newsroom/",
+          "says": "3 links and buttons: `<a href=\"mailto:julia.brady@quavo.com%20\">`, `<a href=\"https://www.linkedin.com/in/julia-lum/\">`, `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/news/quavo-inc-secures-trademark-registration-for-fraud-management-technology-aria/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/fis-face-regulatory-scrutiny-increases-in-fraud/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/types-of-transactions-covered-by-reg-e/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/origins-of-the-cfpb/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/video/back-office-powered-by-qfd/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/careers/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/insight/the-fraud-ai-stack-is-scaling-faster-than-you-are/",
+          "says": "6 links and buttons: `<a href=\"#\">`, `<a href=\"https://www.quavo.com/insight/the-last-mile-of-rea…`, `<a href=\"https://www.quavo.com/insight/fraud-and-scam-resol…`, `<a href=\"https://www.quavo.com/insight/when-better-disputes…`, `<a href=\"https://www.quavo.com/insight/merchant-failures-ar…` and 1 more"
+        },
+        {
+          "url": "https://www.quavo.com/partners/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/insight/heres-your-due-diligence-checklist-for-ai-fraud-dispute-management/",
+          "says": "6 links and buttons: `<a href=\"#\">`, `<a href=\"https://www.quavo.com/insight/the-last-mile-of-rea…`, `<a href=\"https://www.quavo.com/insight/fraud-and-scam-resol…`, `<a href=\"https://www.quavo.com/insight/when-better-disputes…`, `<a href=\"https://www.quavo.com/insight/merchant-failures-ar…` and 1 more"
+        },
+        {
+          "url": "https://www.quavo.com/news/quavo-names-2026-trust-in-banking-award-winners-recognizing-dispute-resolution-excellence/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/privacy-policy/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/insight/a-friendly-introduction-to-regulation-z/",
+          "says": "6 links and buttons: `<a href=\"#\">`, `<a href=\"https://www.quavo.com/insight/the-last-mile-of-rea…`, `<a href=\"https://www.quavo.com/insight/fraud-and-scam-resol…`, `<a href=\"https://www.quavo.com/insight/when-better-disputes…`, `<a href=\"https://www.quavo.com/insight/merchant-failures-ar…` and 1 more"
+        },
+        {
+          "url": "https://www.quavo.com/building-a-development-driven-support-team/",
+          "says": "10 links and buttons: `<a href=\"/blog/\">`, `<a href=\"https://www.quavo.com/7-questions-to-ask-before-yo…`, `<a href=\"https://www.quavo.com/in-the-ai-era-trust-is-every…`, `<a href=\"https://www.quavo.com/why-dispute-intelligence-get…`, `<a href=\"https://www.quavo.com/when-it-comes-to-fraud-resol…` and 5 more"
+        },
+        {
+          "url": "https://www.quavo.com/news/quavo-inc-releases-automatic-visa-mastercard-chargeback-updates/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/types-of-transactions-covered-by-reg-z/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/from-hands-on-hustle-to-intelligent-automation-how-qfd-is-transforming-dispute-management/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/how-to-go-above-and-beyond-compliance-doing-the-right-thing-in-reg-tech/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/mastercard-pre-arbitration-mandates/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/insight/the-first-48-hours-why-speed-matters-in-fraud-claim-resolution/",
+          "says": "6 links and buttons: `<a href=\"#\">`, `<a href=\"https://www.quavo.com/insight/the-last-mile-of-rea…`, `<a href=\"https://www.quavo.com/insight/fraud-and-scam-resol…`, `<a href=\"https://www.quavo.com/insight/when-better-disputes…`, `<a href=\"https://www.quavo.com/insight/merchant-failures-ar…` and 1 more"
+        },
+        {
+          "url": "https://www.quavo.com/video/a-friendly-introduction-to-reg-z/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/in-the-ai-era-trust-is-everything/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/news/quavo-unveils-industrys-first-ai-powered-analyst-delivering-end-to-end-24-7-dispute-automation/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/the-hard-work-behind-faster-more-reliable-fraud-dispute-data/",
+          "says": "10 links and buttons: `<a href=\"/blog/\">`, `<a href=\"https://www.quavo.com/7-questions-to-ask-before-yo…`, `<a href=\"https://www.quavo.com/in-the-ai-era-trust-is-every…`, `<a href=\"https://www.quavo.com/why-dispute-intelligence-get…`, `<a href=\"https://www.quavo.com/when-it-comes-to-fraud-resol…` and 5 more"
+        },
+        {
+          "url": "https://www.quavo.com/insight/growing-without-growing-pains-how-credit-unions-can-efficiently-scale-fraud-and-dispute-operations/",
+          "says": "6 links and buttons: `<a href=\"#\">`, `<a href=\"https://www.quavo.com/insight/the-last-mile-of-rea…`, `<a href=\"https://www.quavo.com/insight/fraud-and-scam-resol…`, `<a href=\"https://www.quavo.com/insight/when-better-disputes…`, `<a href=\"https://www.quavo.com/insight/merchant-failures-ar…` and 1 more"
+        },
+        {
+          "url": "https://www.quavo.com/all-about-pre-arbitration/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/building-product-delivery-teams-in-fintech/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/download/fraud-resolution-reimagined-a-blueprint-for-trust-in-banking/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/insight/closing-fraud-resolution-gaps-agentic-ai-as-credit-unions-new-service-advantage/",
+          "says": "6 links and buttons: `<a href=\"#\">`, `<a href=\"https://www.quavo.com/insight/the-last-mile-of-rea…`, `<a href=\"https://www.quavo.com/insight/fraud-and-scam-resol…`, `<a href=\"https://www.quavo.com/insight/when-better-disputes…`, `<a href=\"https://www.quavo.com/insight/merchant-failures-ar…` and 1 more"
+        },
+        {
+          "url": "https://www.quavo.com/news/fintech-provider-quavo-inc-announces-soc-2-type-1-certification-completion/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/news/quavo-leads-the-way-in-fraud-operations-with-consortium-based-intelligence/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/nuance-why-context-changes-the-meaning-of-data/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/insight/investigating-fraud-claims-using-quavos-fraud-management-ai/",
+          "says": "6 links and buttons: `<a href=\"#\">`, `<a href=\"https://www.quavo.com/insight/the-last-mile-of-rea…`, `<a href=\"https://www.quavo.com/insight/fraud-and-scam-resol…`, `<a href=\"https://www.quavo.com/insight/when-better-disputes…`, `<a href=\"https://www.quavo.com/insight/merchant-failures-ar…` and 1 more"
+        },
+        {
+          "url": "https://www.quavo.com/webinar/dishing-on-disputes-achieving-success-by-measuring-dispute-write-offs-losses-recapture-rates/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        },
+        {
+          "url": "https://www.quavo.com/video/a-beginners-guide-to-chargebacks/",
+          "says": "1 link or button: `<a href=\"#top\">`"
+        }
+      ],
+      "why": "A blind visitor hears only \"link\" or \"button\", with no idea where it goes or what it does; accessibility law (the ADA, the European Accessibility Act) counts it, and so do automated accessibility audits.",
+      "fix": "Give each one words: visible text, an aria-label, or an alt on the image inside it (an icon link to a cart: aria-label=\"Cart\")."
+    },
+    {
+      "code": "SITE-20",
+      "severity": "major",
+      "title": "4 scripts, style sheets and data requests on 4 pages failed to load",
+      "where": [
+        {
+          "url": "https://www.quavo.com/news/quavo-releases-second-annual-trust-in-banking-study/",
+          "says": "1 request: tag.clearbitscripts.com/v1/pk_062665cd2042cc8d0b6ec970a24db7dd/tags.js (404)"
+        },
+        {
+          "url": "https://www.quavo.com/news/subscription-chargeback-win-rates-quavo-labs/",
+          "says": "1 request: tag.clearbitscripts.com/v1/pk_062665cd2042cc8d0b6ec970a24db7dd/tags.js (404)"
+        },
+        {
+          "url": "https://www.quavo.com/quavo-labs/",
+          "says": "1 request: tag.clearbitscripts.com/v1/pk_062665cd2042cc8d0b6ec970a24db7dd/tags.js (404)"
+        },
+        {
+          "url": "https://www.quavo.com/about/",
+          "says": "1 request: tag.clearbitscripts.com/v1/pk_062665cd2042cc8d0b6ec970a24db7dd/tags.js (404)"
+        }
+      ],
+      "why": "A script or style sheet that does not load leaves part of the page unstyled or not working: a menu that does not open, a button that does nothing, a list that never fills. Visitors see it; nothing tells the site's owner.",
+      "fix": "Point each at a file that exists (a path changed in a release is the usual cause), or remove the reference."
+    },
+    {
+      "code": "SITE-21",
+      "severity": "major",
+      "title": "The site's own scripts throw 668 errors on 14 pages",
+      "where": [
+        {
+          "url": "https://www.quavo.com/video/build-vs-buy-dispute-management-solution/",
+          "says": "2 errors: A network error occurred. and 1 more"
+        },
+        {
+          "url": "https://www.quavo.com/video/ins-outs-of-provisional-credit-regulation-e/",
+          "says": "2 errors: A network error occurred. and 1 more"
+        },
+        {
+          "url": "https://www.quavo.com/video/a-consumers-guide-to-filing-a-dispute/",
+          "says": "2 errors: A network error occurred. and 1 more"
+        },
+        {
+          "url": "https://www.quavo.com/news/quavo-releases-second-annual-trust-in-banking-study/",
+          "says": "134 errors: Cannot read properties of null (reading 'getBoundingClientRect') and 133 more"
+        },
+        {
+          "url": "https://www.quavo.com/news/subscription-chargeback-win-rates-quavo-labs/",
+          "says": "147 errors: Cannot read properties of null (reading 'getBoundingClientRect') and 146 more"
+        },
+        {
+          "url": "https://www.quavo.com/insight/the-ins-and-outs-of-provisional-credits/",
+          "says": "2 errors: A network error occurred. and 1 more"
+        },
+        {
+          "url": "https://www.quavo.com/qfd/",
+          "says": "1 error: Cannot read properties of undefined (reading 'toString')"
+        },
+        {
+          "url": "https://www.quavo.com/video/claim-intake-powered-by-qfd/",
+          "says": "2 errors: A network error occurred. and 1 more"
+        },
+        {
+          "url": "https://www.quavo.com/quavo-labs/",
+          "says": "152 errors: Cannot read properties of null (reading 'getBoundingClientRect') and 151 more"
+        },
+        {
+          "url": "https://www.quavo.com/about/",
+          "says": "216 errors: Cannot read properties of null (reading 'getBoundingClientRect') and 215 more"
+        },
+        {
+          "url": "https://www.quavo.com/video/back-office-powered-by-qfd/",
+          "says": "2 errors: A network error occurred. and 1 more"
+        },
+        {
+          "url": "https://www.quavo.com/insight/a-friendly-introduction-to-regulation-z/",
+          "says": "2 errors: A network error occurred. and 1 more"
+        },
+        {
+          "url": "https://www.quavo.com/video/a-friendly-introduction-to-reg-z/",
+          "says": "2 errors: A network error occurred. and 1 more"
+        },
+        {
+          "url": "https://www.quavo.com/video/a-beginners-guide-to-chargebacks/",
+          "says": "2 errors: A network error occurred. and 1 more"
+        }
+      ],
+      "why": "An error nothing catches stops the script that threw it: whatever it was doing (a form's checks, a cart, tracking) is left undone. Visitors never report it; it is seen only in the browser's console.",
+      "fix": "Open the page with the browser's developer tools, read the console, and fix each error at the line it names."
+    },
+    {
+      "code": "SITE-22",
+      "severity": "major",
+      "title": "5 pages are slow: the slowest took 3.6 s, without its images",
+      "where": [
+        {
+          "url": "https://www.quavo.com/offering/",
+          "says": "first byte after 3.5 s, loaded after 3.6 s"
+        },
+        {
+          "url": "https://www.quavo.com/insight/the-last-mile-of-real-time-payments-is-still-manual/",
+          "says": "first byte after 3.4 s, loaded after 3.5 s"
+        },
+        {
+          "url": "https://www.quavo.com/news/quavo-unveils-industrys-first-ai-powered-analyst-delivering-end-to-end-24-7-dispute-automation/",
+          "says": "first byte after 3.3 s, loaded after 3.4 s"
+        },
+        {
+          "url": "https://www.quavo.com/whitepaper-use-cases/fintech/",
+          "says": "first byte after 2.5 s, loaded after 2.8 s"
+        },
+        {
+          "url": "https://www.quavo.com/partners/",
+          "says": "first byte after 2.0 s, loaded after 2.1 s"
+        }
+      ],
+      "why": "Visitors leave a page that takes more than a few seconds, and search engines rank slow pages lower. The crawl fetches no images, fonts or video, so a visitor waits longer than this.",
+      "fix": "A slow first byte is the server: cache the page, or find the slow query behind it. A slow load is what the page asks for: fewer and smaller scripts, deferred until needed."
+    },
+    {
+      "code": "SITE-03",
+      "severity": "minor",
+      "title": "20 of the site's own links redirect before they arrive",
+      "where": [
+        {
+          "url": "https://www.quavo.com/case-study/rogue-credit-union-partners-with-quavo-to-improve-member-satisfaction-with-best-in-class-technology/",
+          "says": "301 to /case-study/rogue-credit-union/"
+        },
+        {
+          "url": "https://www.quavo.com/resource/dispute-resolution-platform/",
+          "says": "301 to /"
+        },
+        {
+          "url": "https://www.quavo.com/case-study/first-hawaiian-bank-boosts-customer-satisfaction-and-elevates-technology-with-qfd/",
+          "says": "301 to /case-study/first-hawaiian-bank/"
+        },
+        {
+          "url": "https://www.quavo.com/resource/data-analytics-and-reporting/",
+          "says": "301 to /"
+        },
+        {
+          "url": "https://www.quavo.com/resource/efficient-case-management/",
+          "says": "301 to /"
+        },
+        {
+          "url": "https://www.quavo.com/resource/compliance-made-easy/",
+          "says": "301 to /"
+        },
+        {
+          "url": "https://www.quavo.com/webinars",
+          "says": "301 to /webinars/"
+        },
+        {
+          "url": "https://www.quavo.com/chargeback-solutions/automated-dispute-management-software/",
+          "says": "301 to /qfd/"
+        },
+        {
+          "url": "https://www.quavo.com/chargeback-solutions/ai-fraud-resolution-aria/",
+          "says": "301, 301, 301 to /qfd-ai/"
+        },
+        {
+          "url": "https://www.quavo.com/knowledge_center/fis-face-regulatory-scrutiny-increases-in-fraud/",
+          "says": "301 to /fis-face-regulatory-scrutiny-increases-in-fraud/"
+        },
+        {
+          "url": "https://www.quavo.com/knowledge_center/types-of-transactions-covered-by-reg-e/",
+          "says": "301 to /types-of-transactions-covered-by-reg-e/"
+        },
+        {
+          "url": "https://www.quavo.com/knowledge_center/origins-of-the-cfpb/",
+          "says": "301 to /origins-of-the-cfpb/"
+        },
+        {
+          "url": "https://www.quavo.com/chargeback-solutions/ai-dispute-resolution-aria/",
+          "says": "301, 301, 301 to /qfd-ai/"
+        },
+        {
+          "url": "https://www.quavo.com/about-us/leadership-team/",
+          "says": "301 to /about/"
+        },
+        {
+          "url": "https://www.quavo.com/dispute-management-resources/knowledge-center/",
+          "says": "301 to /resources/"
+        },
+        {
+          "url": "https://www.quavo.com/what-is-a-reg-z-dispute/",
+          "says": "301 to /types-of-transactions-covered-by-reg-z/"
+        },
+        {
+          "url": "https://www.quavo.com/solutions-for-issuers/",
+          "says": "301 to /issuing-banks/"
+        },
+        {
+          "url": "https://www.quavo.com/products-and-services/",
+          "says": "301 to /qfd/"
+        },
+        {
+          "url": "https://www.quavo.com/resource/regulatory-compliance-module/",
+          "says": "301 to /"
+        },
+        {
+          "url": "https://www.quavo.com/cfpbs-impact-on-fraud-disputes/",
+          "says": "301, 301 to /insight/how-fraud-and-disputes-affect-cfpb-complaints/"
+        }
+      ],
+      "why": "Every click on one of these links costs an extra round trip before the page starts loading, and search engines see one page at two addresses.",
+      "fix": "Link to each page's final address (with or without its trailing slash, as the server serves it)."
+    },
+    {
+      "code": "SITE-15",
+      "severity": "minor",
+      "title": "9 pages have no main heading; 37 pages have several main headings (h1)",
+      "where": [
+        {
+          "url": "https://www.quavo.com/download/case-study-sofi-tech-simplifies-dispute-management-at-scale/",
+          "says": "no h1 shown"
+        },
+        {
+          "url": "https://www.quavo.com/case-study/altura-modernizes-dispute-operations-empowering-member-satisfaction/",
+          "says": "no h1 shown"
+        },
+        {
+          "url": "https://www.quavo.com/video/build-vs-buy-dispute-management-solution/",
+          "says": "4 h1: `Quavo AI | Demo`, `A Consumer’s Guide to Filing a Dispute`, `Ins & Outs of Provisional Credit | Regulation E`"
+        },
+        {
+          "url": "https://www.quavo.com/download/turning-fraud-challenges-into-customer-loyalty-opportunities/",
+          "says": "no h1 shown"
+        },
+        {
+          "url": "https://www.quavo.com/case-study/rogue-credit-union/",
+          "says": "no h1 shown"
+        },
+        {
+          "url": "https://www.quavo.com/video/ins-outs-of-provisional-credit-regulation-e/",
+          "says": "4 h1: `Quavo AI | Demo`, `A Consumer’s Guide to Filing a Dispute`, `Build vs. Buy | Dispute Management Solution`"
+        },
+        {
+          "url": "https://www.quavo.com/download/how-fraud-and-scam-resolution-shapes-trust-loyalty-and-customer-value-in-2026/",
+          "says": "no h1 shown"
+        },
+        {
+          "url": "https://www.quavo.com/case-study/first-hawaiian-bank/",
+          "says": "no h1 shown"
+        },
+        {
+          "url": "https://www.quavo.com/video/a-consumers-guide-to-filing-a-dispute/",
+          "says": "4 h1: `Quavo AI | Demo`, `Ins & Outs of Provisional Credit | Regulation E`, `Build vs. Buy | Dispute Management Solution`"
+        },
+        {
+          "url": "https://www.quavo.com/news/quavo-publishes-consumer-research/",
+          "says": "4 h1: `Issuers are Losing More Digital Subscription Chargebacks as Win Rates Fell 35 Pe`, `Quavo Fraud & Disputes Releases Second Annual Trust in Banking Study, Revealing`, `Quavo Fraud & Disputes Earns SOC 1® Report, Demonstrating Commitment to Financia`"
+        },
+        {
+          "url": "https://www.quavo.com/news/quavo-releases-second-annual-trust-in-banking-study/",
+          "says": "4 h1: `Issuers are Losing More Digital Subscription Chargebacks as Win Rates Fell 35 Pe`, `Quavo Fraud & Disputes Earns SOC 1® Report, Demonstrating Commitment to Financia`, `Quavo Fraud & Disputes Releases 2026 State of Dispute Management Performance Rep`"
+        },
+        {
+          "url": "https://www.quavo.com/news/subscription-chargeback-win-rates-quavo-labs/",
+          "says": "4 h1: `Quavo Fraud & Disputes Releases Second Annual Trust in Banking Study, Revealing`, `Quavo Fraud & Disputes Earns SOC 1® Report, Demonstrating Commitment to Financia`, `Quavo Fraud & Disputes Releases 2026 State of Dispute Management Performance Rep`"
+        },
+        {
+          "url": "https://www.quavo.com/news/quavo-elevates-executive-leadership-with-appointment-of-david-oldershaw-as-coo-and-tony-digiorgio-as-cto/",
+          "says": "4 h1: `Issuers are Losing More Digital Subscription Chargebacks as Win Rates Fell 35 Pe`, `Quavo Fraud & Disputes Releases Second Annual Trust in Banking Study, Revealing`, `Quavo Fraud & Disputes Earns SOC 1® Report, Demonstrating Commitment to Financia`"
+        },
+        {
+          "url": "https://www.quavo.com/offering/",
+          "says": "3 h1: `Solutions Built to Help You Make It Right`, `From Cost to Opportunity – Enhancing Key Pressure Points`, `Advanced Data`"
+        },
+        {
+          "url": "https://www.quavo.com/news/quavo-fraud-disputes-earns-soc-1-report-demonstrating-commitment-to-financial-institution-controls/",
+          "says": "4 h1: `Issuers are Losing More Digital Subscription Chargebacks as Win Rates Fell 35 Pe`, `Quavo Fraud & Disputes Releases Second Annual Trust in Banking Study, Revealing`, `Quavo Fraud & Disputes Releases 2026 State of Dispute Management Performance Rep`"
+        },
+        {
+          "url": "https://www.quavo.com/news/quavo-fraud-disputes-secures-300-million-growth-investment-from-spectrum-equity/",
+          "says": "4 h1: `Issuers are Losing More Digital Subscription Chargebacks as Win Rates Fell 35 Pe`, `Quavo Fraud & Disputes Releases Second Annual Trust in Banking Study, Revealing`, `Quavo Fraud & Disputes Earns SOC 1® Report, Demonstrating Commitment to Financia`"
+        },
+        {
+          "url": "https://www.quavo.com/quarterly-newsletter/q2-2025/",
+          "says": "no h1 shown"
+        },
+        {
+          "url": "https://www.quavo.com/news/quavo-named-winner-of-the-2026-creditunions-com-innovation-series-fraud-prevention-and-resolution-category/",
+          "says": "4 h1: `Issuers are Losing More Digital Subscription Chargebacks as Win Rates Fell 35 Pe`, `Quavo Fraud & Disputes Releases Second Annual Trust in Banking Study, Revealing`, `Quavo Fraud & Disputes Earns SOC 1® Report, Demonstrating Commitment to Financia`"
+        },
+        {
+          "url": "https://www.quavo.com/video/claim-intake-powered-by-qfd/",
+          "says": "4 h1: `Quavo AI | Demo`, `A Consumer’s Guide to Filing a Dispute`, `Ins & Outs of Provisional Credit | Regulation E`"
+        },
+        {
+          "url": "https://www.quavo.com/news/quavo-fraud-disputes-named-best-dispute-management-resolution-solution-by-fintech-futures/",
+          "says": "4 h1: `Issuers are Losing More Digital Subscription Chargebacks as Win Rates Fell 35 Pe`, `Quavo Fraud & Disputes Releases Second Annual Trust in Banking Study, Revealing`, `Quavo Fraud & Disputes Earns SOC 1® Report, Demonstrating Commitment to Financia`"
+        },
+        {
+          "url": "https://www.quavo.com/download/the-2026-state-of-dispute-management/",
+          "says": "no h1 shown"
+        },
+        {
+          "url": "https://www.quavo.com/news/pegasystems-announces-first-six-companies-funded-by-pega-service-ventures-to-empower-customer-success/",
+          "says": "4 h1: `Issuers are Losing More Digital Subscription Chargebacks as Win Rates Fell 35 Pe`, `Quavo Fraud & Disputes Releases Second Annual Trust in Banking Study, Revealing`, `Quavo Fraud & Disputes Earns SOC 1® Report, Demonstrating Commitment to Financia`"
+        },
+        {
+          "url": "https://www.quavo.com/news/quavo-inc-secures-trademark-registration-for-fraud-management-technology-aria/",
+          "says": "4 h1: `Issuers are Losing More Digital Subscription Chargebacks as Win Rates Fell 35 Pe`, `Quavo Fraud & Disputes Releases Second Annual Trust in Banking Study, Revealing`, `Quavo Fraud & Disputes Earns SOC 1® Report, Demonstrating Commitment to Financia`"
+        },
+        {
+          "url": "https://www.quavo.com/fis-face-regulatory-scrutiny-increases-in-fraud/",
+          "says": "4 h1: `7 Questions to Ask Before You Outsource Fraud and Disputes`, `In the AI Era, Trust Is Everything`, `Why Dispute Intelligence Gets Better When Institutions Stop Guarding It`"
+        },
+        {
+          "url": "https://www.quavo.com/types-of-transactions-covered-by-reg-e/",
+          "says": "4 h1: `7 Questions to Ask Before You Outsource Fraud and Disputes`, `In the AI Era, Trust Is Everything`, `Why Dispute Intelligence Gets Better When Institutions Stop Guarding It`"
+        },
+        {
+          "url": "https://www.quavo.com/origins-of-the-cfpb/",
+          "says": "4 h1: `7 Questions to Ask Before You Outsource Fraud and Disputes`, `In the AI Era, Trust Is Everything`, `Why Dispute Intelligence Gets Better When Institutions Stop Guarding It`"
+        },
+        {
+          "url": "https://www.quavo.com/video/back-office-powered-by-qfd/",
+          "says": "4 h1: `Quavo AI | Demo`, `A Consumer’s Guide to Filing a Dispute`, `Ins & Outs of Provisional Credit | Regulation E`"
+        },
+        {
+          "url": "https://www.quavo.com/news/quavo-names-2026-trust-in-banking-award-winners-recognizing-dispute-resolution-excellence/",
+          "says": "4 h1: `Issuers are Losing More Digital Subscription Chargebacks as Win Rates Fell 35 Pe`, `Quavo Fraud & Disputes Releases Second Annual Trust in Banking Study, Revealing`, `Quavo Fraud & Disputes Earns SOC 1® Report, Demonstrating Commitment to Financia`"
+        },
+        {
+          "url": "https://www.quavo.com/building-a-development-driven-support-team/",
+          "says": "4 h1: `7 Questions to Ask Before You Outsource Fraud and Disputes`, `In the AI Era, Trust Is Everything`, `Why Dispute Intelligence Gets Better When Institutions Stop Guarding It`"
+        },
+        {
+          "url": "https://www.quavo.com/news/quavo-inc-releases-automatic-visa-mastercard-chargeback-updates/",
+          "says": "4 h1: `Issuers are Losing More Digital Subscription Chargebacks as Win Rates Fell 35 Pe`, `Quavo Fraud & Disputes Releases Second Annual Trust in Banking Study, Revealing`, `Quavo Fraud & Disputes Earns SOC 1® Report, Demonstrating Commitment to Financia`"
+        },
+        {
+          "url": "https://www.quavo.com/types-of-transactions-covered-by-reg-z/",
+          "says": "4 h1: `7 Questions to Ask Before You Outsource Fraud and Disputes`, `In the AI Era, Trust Is Everything`, `Why Dispute Intelligence Gets Better When Institutions Stop Guarding It`"
+        },
+        {
+          "url": "https://www.quavo.com/from-hands-on-hustle-to-intelligent-automation-how-qfd-is-transforming-dispute-management/",
+          "says": "4 h1: `7 Questions to Ask Before You Outsource Fraud and Disputes`, `In the AI Era, Trust Is Everything`, `Why Dispute Intelligence Gets Better When Institutions Stop Guarding It`"
+        },
+        {
+          "url": "https://www.quavo.com/how-to-go-above-and-beyond-compliance-doing-the-right-thing-in-reg-tech/",
+          "says": "4 h1: `7 Questions to Ask Before You Outsource Fraud and Disputes`, `In the AI Era, Trust Is Everything`, `Why Dispute Intelligence Gets Better When Institutions Stop Guarding It`"
+        },
+        {
+          "url": "https://www.quavo.com/mastercard-pre-arbitration-mandates/",
+          "says": "4 h1: `7 Questions to Ask Before You Outsource Fraud and Disputes`, `In the AI Era, Trust Is Everything`, `Why Dispute Intelligence Gets Better When Institutions Stop Guarding It`"
+        },
+        {
+          "url": "https://www.quavo.com/video/a-friendly-introduction-to-reg-z/",
+          "says": "4 h1: `Quavo AI | Demo`, `A Consumer’s Guide to Filing a Dispute`, `Ins & Outs of Provisional Credit | Regulation E`"
+        },
+        {
+          "url": "https://www.quavo.com/in-the-ai-era-trust-is-everything/",
+          "says": "4 h1: `7 Questions to Ask Before You Outsource Fraud and Disputes`, `Why Dispute Intelligence Gets Better When Institutions Stop Guarding It`, `When It Comes to Fraud, Resolution Beats Detection and Consumers Know It`"
+        },
+        {
+          "url": "https://www.quavo.com/news/quavo-unveils-industrys-first-ai-powered-analyst-delivering-end-to-end-24-7-dispute-automation/",
+          "says": "4 h1: `Issuers are Losing More Digital Subscription Chargebacks as Win Rates Fell 35 Pe`, `Quavo Fraud & Disputes Releases Second Annual Trust in Banking Study, Revealing`, `Quavo Fraud & Disputes Earns SOC 1® Report, Demonstrating Commitment to Financia`"
+        },
+        {
+          "url": "https://www.quavo.com/the-hard-work-behind-faster-more-reliable-fraud-dispute-data/",
+          "says": "4 h1: `7 Questions to Ask Before You Outsource Fraud and Disputes`, `In the AI Era, Trust Is Everything`, `Why Dispute Intelligence Gets Better When Institutions Stop Guarding It`"
+        },
+        {
+          "url": "https://www.quavo.com/all-about-pre-arbitration/",
+          "says": "4 h1: `7 Questions to Ask Before You Outsource Fraud and Disputes`, `In the AI Era, Trust Is Everything`, `Why Dispute Intelligence Gets Better When Institutions Stop Guarding It`"
+        },
+        {
+          "url": "https://www.quavo.com/building-product-delivery-teams-in-fintech/",
+          "says": "4 h1: `7 Questions to Ask Before You Outsource Fraud and Disputes`, `In the AI Era, Trust Is Everything`, `Why Dispute Intelligence Gets Better When Institutions Stop Guarding It`"
+        },
+        {
+          "url": "https://www.quavo.com/download/fraud-resolution-reimagined-a-blueprint-for-trust-in-banking/",
+          "says": "no h1 shown"
+        },
+        {
+          "url": "https://www.quavo.com/news/fintech-provider-quavo-inc-announces-soc-2-type-1-certification-completion/",
+          "says": "4 h1: `Issuers are Losing More Digital Subscription Chargebacks as Win Rates Fell 35 Pe`, `Quavo Fraud & Disputes Releases Second Annual Trust in Banking Study, Revealing`, `Quavo Fraud & Disputes Earns SOC 1® Report, Demonstrating Commitment to Financia`"
+        },
+        {
+          "url": "https://www.quavo.com/news/quavo-leads-the-way-in-fraud-operations-with-consortium-based-intelligence/",
+          "says": "4 h1: `Issuers are Losing More Digital Subscription Chargebacks as Win Rates Fell 35 Pe`, `Quavo Fraud & Disputes Releases Second Annual Trust in Banking Study, Revealing`, `Quavo Fraud & Disputes Earns SOC 1® Report, Demonstrating Commitment to Financia`"
+        },
+        {
+          "url": "https://www.quavo.com/cfpb-under-biden-administration/",
+          "says": "4 h1: `7 Questions to Ask Before You Outsource Fraud and Disputes`, `In the AI Era, Trust Is Everything`, `Why Dispute Intelligence Gets Better When Institutions Stop Guarding It`"
+        },
+        {
+          "url": "https://www.quavo.com/nuance-why-context-changes-the-meaning-of-data/",
+          "says": "4 h1: `7 Questions to Ask Before You Outsource Fraud and Disputes`, `In the AI Era, Trust Is Everything`, `Why Dispute Intelligence Gets Better When Institutions Stop Guarding It`"
+        },
+        {
+          "url": "https://www.quavo.com/video/a-beginners-guide-to-chargebacks/",
+          "says": "4 h1: `Quavo AI | Demo`, `A Consumer’s Guide to Filing a Dispute`, `Ins & Outs of Provisional Credit | Regulation E`"
+        }
+      ],
+      "why": "Screen reader users jump to the h1 to learn what a page is, and search engines read it as the page's subject; none, or several competing, says neither.",
+      "fix": "Give each page one h1 naming what it shows; the site's name in the header is not it."
+    },
+    {
+      "code": "SITE-16",
+      "severity": "minor",
+      "title": "22 links on 7 pages point to a part of the page that is not there",
+      "where": [
+        {
+          "url": "https://www.quavo.com/download/case-study-sofi-tech-simplifies-dispute-management-at-scale/",
+          "says": "2 links: `<a href=\"#elementor-action%3Aaction%3Dpopup%3Aopen%26settin…` and 1 more"
+        },
+        {
+          "url": "https://www.quavo.com/webinar/dishing-on-disputes-building-member-trust-through-dispute-operations/",
+          "says": "1 link: `<a href=\"#elementor-action%3Aaction%3Dpopup%3Aopen%26settin…`"
+        },
+        {
+          "url": "https://www.quavo.com/download/turning-fraud-challenges-into-customer-loyalty-opportunities/",
+          "says": "2 links: `<a href=\"#elementor-action%3Aaction%3Dpopup%3Aopen%26settin…` and 1 more"
+        },
+        {
+          "url": "https://www.quavo.com/webinar/dishing-on-disputes-what-happens-when-the-call-comes-from-inside-the-house/",
+          "says": "1 link: `<a href=\"#elementor-action%3Aaction%3Dpopup%3Aopen%26settin…`"
+        },
+        {
+          "url": "https://www.quavo.com/partners/",
+          "says": "13 links: `<a href=\"#elementor-action%3Aaction%3Dpopup%3Aopen%26settin…` and 12 more"
+        },
+        {
+          "url": "https://www.quavo.com/download/fraud-resolution-reimagined-a-blueprint-for-trust-in-banking/",
+          "says": "2 links: `<a href=\"#elementor-action%3Aaction%3Dpopup%3Aopen%26settin…` and 1 more"
+        },
+        {
+          "url": "https://www.quavo.com/webinar/dishing-on-disputes-achieving-success-by-measuring-dispute-write-offs-losses-recapture-rates/",
+          "says": "1 link: `<a href=\"#elementor-action%3Aaction%3Dpopup%3Aopen%26settin…`"
+        }
+      ],
+      "why": "A visitor clicks and nothing happens: the link names a #part no element on the page has.",
+      "fix": "Give the part it means the id the link names, or point the link at the right one."
+    },
+    {
+      "code": "SITE-17",
+      "severity": "minor",
+      "title": "13 pages have no description for search results; 2 pages share one",
+      "where": [
+        {
+          "url": "https://www.quavo.com/terms-and-conditions/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://www.quavo.com/case-study/rogue-credit-union/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://www.quavo.com/case-study/first-hawaiian-bank/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://www.quavo.com/press-release-use-cases/credit-union/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://www.quavo.com/quavo-labs/the-streaming-chargeback-is-getting-harder-to-win/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://www.quavo.com/quarterly-newsletter/q2-2025/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://www.quavo.com/events-product/qfd/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://www.quavo.com/press-release-use-cases/fintech/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://www.quavo.com/whitepaper-use-cases/fintech/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://www.quavo.com/quavo-labs/the-fraud-ai-stack-is-scaling-faster-than-you-are/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://www.quavo.com/quavo-labs/the-serial-filer-problem-what-the-data-says-and-what-to-do-about-it/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://www.quavo.com/news/quavo-inc-secures-trademark-registration-for-fraud-management-technology-aria/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://www.quavo.com/webinar/dishing-on-disputes-achieving-success-by-measuring-dispute-write-offs-losses-recapture-rates/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://www.quavo.com/news/quavo-releases-second-annual-trust-in-banking-study/",
+          "says": "shares `Quavo earns its first SOC 1 Type 1 report, reinforcing co...`"
+        },
+        {
+          "url": "https://www.quavo.com/news/quavo-fraud-disputes-earns-soc-1-report-demonstrating-commitment-to-financial-institution-controls/",
+          "says": "shares `Quavo earns its first SOC 1 Type 1 report, reinforcing co...`"
+        }
+      ],
+      "why": "Search results show the description under the title; without one, the search engine picks a line of the page, often the menu or a cookie notice.",
+      "fix": "Give each page a <meta name=\"description\"> of a sentence or two saying what it offers."
+    },
+    {
+      "code": "SITE-18",
+      "severity": "minor",
+      "title": "3 addresses go through a chain of redirects",
+      "where": [
+        {
+          "url": "https://www.quavo.com/qfd-ai/",
+          "says": "/chargeback-solutions/ai-fraud-resolution-aria/ → /qfd-boosters/ → /qfd-addons/ → /qfd-ai/ (301, 301, 301)"
+        },
+        {
+          "url": "https://www.quavo.com/qfd-ai/",
+          "says": "/chargeback-solutions/ai-dispute-resolution-aria/ → /qfd-boosters/ → /qfd-addons/ → /qfd-ai/ (301, 301, 301)"
+        },
+        {
+          "url": "https://www.quavo.com/insight/how-fraud-and-disputes-affect-cfpb-complaints/",
+          "says": "/cfpbs-impact-on-fraud-disputes/ → /whitepaper/how-fraud-and-disputes-affect-cfpb-complaints/ → /insight/how-fraud-and-disputes-affect-cfpb-complaints/ (301, 301)"
+        }
+      ],
+      "why": "Each redirect is another round trip before the page starts to load, and search engines may give up on a long chain.",
+      "fix": "Redirect each old address straight to the final one, and link to the final address."
+    },
+    {
+      "code": "SITE-29",
+      "severity": "minor",
+      "title": "The site has no security.txt: someone who finds a hole has no way to report it",
+      "where": [
+        {
+          "url": "https://www.quavo.com/.well-known/security.txt",
+          "says": "answered 404"
+        }
+      ],
+      "why": "Researchers who find a security problem look for /.well-known/security.txt to know whom to tell (RFC 9116); without it they may not report it, or report it publicly.",
+      "fix": "Publish /.well-known/security.txt with a Contact line (an email address or a form) and an Expires line."
+    }
+  ]
+}
